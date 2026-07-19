@@ -65,6 +65,21 @@ export function MemberSignupForm({ onBack }: { onBack: () => void }) {
         throw new Error(msg);
       }
 
+      // Send email notification (fire-and-forget)
+      fetch(`${SUPABASE_URL}/functions/v1/notify-application`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: name.trim(),
+          company_name: companyName.trim(),
+          email: email.trim(),
+          phone: phone.trim(),
+          sms_opt_in: smsOptIn,
+          monthly_volume: monthlyVolume.trim(),
+          notes: notes.trim() || null,
+        }),
+      }).catch(() => {});
+
       setFormState("success");
     } catch (err: unknown) {
       setFormState("error");
