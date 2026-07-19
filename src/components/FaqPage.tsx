@@ -4,7 +4,7 @@ import { ChevronDown, HelpCircle } from "lucide-react";
 const FAQ_DATA = [
   {
     q: "Where are your peptides made?",
-    a: "Raw powders are synthesized in India and China, then finished, filtered, reconstituted, lyophilized, and packaged in the USA. All orders ship from the USA with no customs involvement.",
+    a: "Raw powders are synthesized in India and China, then finished, reconstituted, filtered, lyophilized, and packaged in the USA. All orders ship from the USA.",
   },
   {
     q: "Are your products tested for purity?",
