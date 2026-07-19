@@ -30,35 +30,37 @@ function ProductRow({ product, qty, totalCartQty, onQtyChange, onAdd }: {
 
   return (
     <div className="group border border-slate-700/50 rounded-xl bg-slate-800/60 hover:bg-slate-800/90 hover:border-purple-500/30 hover:shadow-lg hover:shadow-purple-500/5 transition-all duration-200">
-      <div className="flex items-center gap-4 px-4 py-3.5">
-        {/* Product info */}
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2">
-            <h3 className="text-sm font-semibold text-slate-100 truncate">{product.name}</h3>
-            <TierBadge basePrice={product.basePrice} totalQty={totalCartQty} />
+      <div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-4 px-4 py-3.5">
+        {/* Product info + price row */}
+        <div className="flex items-start sm:items-center justify-between gap-3 flex-1 min-w-0">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2 flex-wrap">
+              <h3 className="text-sm font-semibold text-slate-100">{product.name}</h3>
+              <TierBadge basePrice={product.basePrice} totalQty={totalCartQty} />
+            </div>
+            <div className="flex items-center gap-2 mt-0.5">
+              <span className="text-xs font-mono text-slate-500">{product.sku}</span>
+              <span className="text-slate-600">|</span>
+              <span className="text-xs text-slate-400">{product.specification}</span>
+            </div>
           </div>
-          <div className="flex items-center gap-2 mt-0.5">
-            <span className="text-xs font-mono text-slate-500">{product.sku}</span>
-            <span className="text-slate-600">|</span>
-            <span className="text-xs text-slate-400">{product.specification}</span>
+
+          {/* Price */}
+          <div className="text-right shrink-0">
+            <p className="text-[10px] text-slate-500 leading-tight">As Low As</p>
+            <p className="text-sm font-bold text-slate-100">${tiers[3].price}<span className="text-[10px] font-normal text-slate-500">/kit</span></p>
+            <button
+              onClick={() => setExpanded(!expanded)}
+              className="inline-flex items-center gap-0.5 text-[10px] text-purple-400 hover:text-purple-300 font-medium transition-colors"
+            >
+              View tiers
+              <ChevronDown className={`w-3 h-3 transition-transform ${expanded ? "rotate-180" : ""}`} />
+            </button>
           </div>
         </div>
 
-        {/* Price */}
-        <div className="text-right shrink-0 w-24">
-          <p className="text-[10px] text-slate-500 leading-tight">As Low As</p>
-          <p className="text-sm font-bold text-slate-100">${tiers[3].price}<span className="text-[10px] font-normal text-slate-500">/kit</span></p>
-          <button
-            onClick={() => setExpanded(!expanded)}
-            className="inline-flex items-center gap-0.5 text-[10px] text-purple-400 hover:text-purple-300 font-medium transition-colors"
-          >
-            View tiers
-            <ChevronDown className={`w-3 h-3 transition-transform ${expanded ? "rotate-180" : ""}`} />
-          </button>
-        </div>
-
-        {/* Quantity */}
-        <div className="flex items-center gap-1.5 shrink-0">
+        {/* Quantity + Add */}
+        <div className="flex items-center gap-2 shrink-0">
           <button
             onClick={() => onQtyChange(Math.max(0, qty - 1))}
             disabled={qty === 0}
@@ -80,17 +82,15 @@ function ProductRow({ product, qty, totalCartQty, onQtyChange, onAdd }: {
           >
             <Plus className="w-3.5 h-3.5" />
           </button>
+          <button
+            onClick={onAdd}
+            disabled={qty === 0}
+            title={qty === 0 ? "Set quantity first" : "Add to order"}
+            className="w-9 h-9 flex items-center justify-center rounded-lg bg-purple-600 text-white hover:bg-purple-500 disabled:bg-slate-700 disabled:text-slate-500 disabled:cursor-not-allowed transition-colors shrink-0"
+          >
+            <ShoppingCart className="w-4 h-4" />
+          </button>
         </div>
-
-        {/* Add button */}
-        <button
-          onClick={onAdd}
-          disabled={qty === 0}
-          title={qty === 0 ? "Set quantity first" : "Add to order"}
-          className="w-9 h-9 flex items-center justify-center rounded-lg bg-purple-600 text-white hover:bg-purple-500 disabled:bg-slate-700 disabled:text-slate-500 disabled:cursor-not-allowed transition-colors shrink-0"
-        >
-          <ShoppingCart className="w-4 h-4" />
-        </button>
       </div>
 
       {/* Tier breakdown */}
