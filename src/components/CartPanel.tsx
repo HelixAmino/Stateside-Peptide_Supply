@@ -69,7 +69,7 @@ export function CartPanel({ open, onClose }: { open: boolean; onClose: () => voi
     setIdStatus("checking");
     try {
       const res = await fetch(
-        `${SUPABASE_URL}/rest/v1/members?select=member_id&member_id=eq.${encodeURIComponent(trimmed)}&active=eq.true`,
+        `${SUPABASE_URL}/rest/v1/members?select=member_id&member_id=ilike.${encodeURIComponent(trimmed)}&active=eq.true`,
         {
           headers: {
             apikey: SUPABASE_ANON_KEY,
