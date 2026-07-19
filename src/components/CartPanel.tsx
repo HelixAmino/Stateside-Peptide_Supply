@@ -1,5 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
-import { Trash2, Minus, Plus, X, ShoppingCart, Loader2, ExternalLink, CheckCircle, XCircle } from "lucide-react";
+import { Trash2, Minus, Plus, X, ShoppingCart, Loader2, ExternalLink, CheckCircle, XCircle, AlertTriangle } from "lucide-react";
 import { useCart, type CartItem } from "../lib/cart";
 
 const SUPABASE_URL =
@@ -59,6 +59,7 @@ export function CartPanel({ open, onClose }: { open: boolean; onClose: () => voi
   const cart = useCart();
   const [customerId, setCustomerId] = useState("");
   const [idStatus, setIdStatus] = useState<"idle" | "checking" | "valid" | "invalid">("idle");
+  const [showDisclaimer, setShowDisclaimer] = useState(false);
 
   const validateMemberId = useCallback(async (value: string) => {
     const trimmed = value.trim();
@@ -242,7 +243,7 @@ export function CartPanel({ open, onClose }: { open: boolean; onClose: () => voi
               </div>
 
               <button
-                onClick={() => cart.checkout(customerId.trim())}
+                onClick={() => setShowDisclaimer(true)}
                 disabled={!canCheckout}
                 className="w-full mt-3 px-4 py-3 text-sm font-semibold text-white bg-purple-600 rounded-lg hover:bg-purple-500 disabled:bg-slate-300 disabled:text-slate-500 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2"
               >
@@ -260,6 +261,72 @@ export function CartPanel({ open, onClose }: { open: boolean; onClose: () => voi
           )}
         </div>
       </div>
+      {showDisclaimer && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center p-4">
+          <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setShowDisclaimer(false)} />
+          <div className="relative bg-white rounded-2xl shadow-2xl max-w-lg w-full max-h-[90vh] overflow-y-auto">
+            <div className="p-6">
+              <div className="flex items-center gap-3 mb-4">
+                <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center">
+                  <AlertTriangle className="w-5 h-5 text-amber-600" />
+                </div>
+                <h3 className="text-lg font-bold text-slate-900">Research Use Only Disclaimer</h3>
+              </div>
+
+              <div className="space-y-4 text-sm text-slate-700 leading-relaxed border-t border-b border-slate-200 py-4 my-4">
+                <p className="font-semibold text-slate-900">
+                  IMPORTANT NOTICE: All products sold by SPS are intended for In-Vitro Research Use Only (RUO).
+                </p>
+                <p>
+                  By proceeding with this purchase, you acknowledge and agree to the following terms:
+                </p>
+                <ol className="list-decimal list-outside ml-5 space-y-2">
+                  <li>
+                    All products purchased from SPS are designated as Research Use Only (RUO) and are intended solely for in-vitro research, laboratory experimentation, and scientific investigation purposes.
+                  </li>
+                  <li>
+                    These products are <span className="font-semibold">NOT</span> intended for human or animal diagnostic use, therapeutic use, drug use, food use, cosmetic use, or for any in-vivo application.
+                  </li>
+                  <li>
+                    These products have not been approved, cleared, or licensed by the FDA or any other regulatory body for use in diagnostic or therapeutic procedures.
+                  </li>
+                  <li>
+                    The purchaser assumes all responsibility for the proper use, handling, storage, and disposal of products in accordance with all applicable local, state, and federal regulations.
+                  </li>
+                  <li>
+                    The purchaser represents that they are qualified to handle research materials and that all products will be used only by trained personnel in an appropriate laboratory setting.
+                  </li>
+                  <li>
+                    SPS makes no claims regarding the safety or efficacy of these products for any use other than in-vitro research. Any use beyond the stated intended purpose is strictly prohibited and done solely at the purchaser's own risk.
+                  </li>
+                </ol>
+                <p className="font-semibold text-slate-900 pt-2">
+                  By clicking "I Acknowledge & Continue" below, you confirm that you have read, understood, and agree to abide by all terms of this Research Use Only disclaimer and that your purchase is solely for in-vitro research purposes.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <button
+                  onClick={() => {
+                    setShowDisclaimer(false);
+                    cart.checkout(customerId.trim());
+                  }}
+                  className="w-full px-4 py-3 text-sm font-semibold text-white bg-purple-600 rounded-lg hover:bg-purple-500 transition-colors flex items-center justify-center gap-2"
+                >
+                  <CheckCircle className="w-4 h-4" />
+                  I Acknowledge & Continue to Checkout
+                </button>
+                <button
+                  onClick={() => setShowDisclaimer(false)}
+                  className="w-full px-4 py-2 text-sm text-slate-600 border border-slate-200 rounded-lg hover:bg-slate-50 transition-colors"
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
     </>
   );
 }
