@@ -4,6 +4,7 @@ import { ProductCatalog } from "./components/ProductCatalog";
 import { CartPanel } from "./components/CartPanel";
 import { HeroSection } from "./components/HeroSection";
 import { FaqPage } from "./components/FaqPage";
+import { AgeGate, useAgeVerified } from "./components/AgeGate";
 import { useCart } from "./lib/cart";
 
 type Page = "home" | "faq";
@@ -13,6 +14,11 @@ function App() {
   const [page, setPage] = useState<Page>("home");
   const cart = useCart();
   const catalogRef = useRef<HTMLDivElement>(null);
+  const { verified, confirm: confirmAge } = useAgeVerified();
+
+  if (!verified) {
+    return <AgeGate onConfirm={confirmAge} />;
+  }
 
   const scrollToCatalog = () => {
     setPage("home");
