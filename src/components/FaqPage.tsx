@@ -28,7 +28,7 @@ const FAQ_DATA = [
   },
   {
     q: "What payment methods do you accept?",
-    a: "A variety of payment terms are accepted, including credit card (4% fee), ACH, crypto (4% discount), and Venmo. The options appear at checkout.",
+    a: "A variety of payment terms are accepted, including credit card, ACH, crypto (5% discount), and Venmo. The options appear at checkout.",
   },
   {
     q: "How quickly do orders ship?",
