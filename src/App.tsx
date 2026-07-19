@@ -97,7 +97,7 @@ function App() {
       {/* Page content */}
       {page === "home" && (
         <>
-          <HeroSection onBrowse={scrollToCatalog} />
+          <HeroSection onBrowse={scrollToCatalog} onApply={() => setPage("signup")} />
           <main ref={catalogRef} className="flex-1">
             <ProductCatalog />
           </main>

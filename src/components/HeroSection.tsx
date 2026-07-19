@@ -1,6 +1,6 @@
-import { ShieldCheck, FlaskConical, ArrowRight } from 'lucide-react';
+import { ShieldCheck, FlaskConical, ArrowRight, UserPlus } from 'lucide-react';
 
-export function HeroSection({ onBrowse }: { onBrowse?: () => void }) {
+export function HeroSection({ onBrowse, onApply }: { onBrowse?: () => void; onApply?: () => void }) {
   return (
     <section className="relative overflow-hidden bg-[#0a0e1a] min-h-[520px] flex items-center">
       {/* Animated background grid */}
@@ -51,7 +51,7 @@ export function HeroSection({ onBrowse }: { onBrowse?: () => void }) {
             </p>
 
             {/* CTA + trust signals */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-5">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
               <button
                 onClick={onBrowse}
                 className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold rounded-xl shadow-lg shadow-purple-600/25 hover:shadow-purple-600/40 hover:from-purple-500 hover:to-purple-400 transition-all duration-300"
@@ -59,6 +59,14 @@ export function HeroSection({ onBrowse }: { onBrowse?: () => void }) {
                 <span>Build Your Order</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 <div className="absolute inset-0 rounded-xl border border-purple-400/20" />
+              </button>
+              <button
+                onClick={onApply}
+                className="group relative inline-flex items-center gap-3 px-8 py-4 bg-transparent text-white font-semibold rounded-xl border border-purple-500/40 hover:border-purple-400/60 hover:bg-purple-500/10 shadow-lg shadow-purple-600/10 hover:shadow-purple-600/20 transition-all duration-300"
+              >
+                <UserPlus className="w-4 h-4 text-purple-400" />
+                <span>Apply for Membership</span>
+                <div className="absolute inset-0 rounded-xl border border-purple-400/0" />
               </button>
             </div>
 
