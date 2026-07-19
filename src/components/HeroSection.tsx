@@ -45,7 +45,7 @@ export function HeroSection({ onBrowse }: { onBrowse?: () => void }) {
 
             {/* Subheadline */}
             <p className="text-base lg:text-lg text-slate-400 leading-relaxed max-w-xl">
-              Minimum order quantity 5 Kits total. Every batch ships with
+              Minimum order quantity 5 Kits. Every batch ships with
               verifiable 3rd party Certificates of Analysis. Volume pricing
               tiers: 5–9 kits, 10–24 kits, 25–99 kits, and 100+ kits.
             </p>
