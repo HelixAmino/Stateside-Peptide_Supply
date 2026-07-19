@@ -183,7 +183,7 @@ export function MemberSignupForm({ onBack }: { onBack: () => void }) {
                 type="text"
                 value={monthlyVolume}
                 onChange={(e) => setMonthlyVolume(e.target.value)}
-                placeholder="e.g. 50 units, $5,000"
+                placeholder="e.g. 250 kits, $7,500"
                 className={inputClass}
               />
             </Field>
