@@ -23,11 +23,11 @@ export function HeroSection({ onBrowse, onApply }: { onBrowse?: () => void; onAp
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-12 py-16 lg:py-20">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Left content */}
-          <div className="space-y-8">
+          <div className="space-y-8 text-center lg:text-left items-center lg:items-start flex flex-col">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/5 backdrop-blur-sm">
-              <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse" />
-              <span className="text-xs font-medium tracking-wide text-purple-300 uppercase">
+            <div className="inline-flex items-center gap-2 px-3 sm:px-4 py-2 rounded-full border border-purple-500/30 bg-purple-500/5 backdrop-blur-sm">
+              <span className="w-2 h-2 rounded-full bg-purple-400 animate-pulse shrink-0" />
+              <span className="text-[10px] sm:text-xs font-medium tracking-wide text-purple-300 uppercase">
                 Processed, Filtered and Lyophilized in the USA
               </span>
             </div>
@@ -51,7 +51,7 @@ export function HeroSection({ onBrowse, onApply }: { onBrowse?: () => void; onAp
             </p>
 
             {/* CTA + trust signals */}
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+            <div className="flex flex-col sm:flex-row items-center sm:items-center gap-4">
               <button
                 onClick={onBrowse}
                 className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-600 to-purple-500 text-white font-semibold rounded-xl shadow-lg shadow-purple-600/25 hover:shadow-purple-600/40 hover:from-purple-500 hover:to-purple-400 transition-all duration-300"
@@ -71,7 +71,7 @@ export function HeroSection({ onBrowse, onApply }: { onBrowse?: () => void; onAp
             </div>
 
             {/* Trust badges */}
-            <div className="flex flex-wrap items-center gap-6 pt-2">
+            <div className="flex flex-wrap items-center justify-center lg:justify-start gap-6 pt-2">
               <div className="flex items-center gap-2.5">
                 <div className="w-9 h-9 rounded-lg bg-slate-800/80 border border-slate-700/50 flex items-center justify-center">
                   <ShieldCheck className="w-4.5 h-4.5 text-purple-400" />
@@ -95,7 +95,7 @@ export function HeroSection({ onBrowse, onApply }: { onBrowse?: () => void; onAp
           </div>
 
           {/* Right: Logo image */}
-          <div className="relative flex items-center justify-center">
+          <div className="relative flex items-center justify-center max-w-full overflow-hidden">
             {/* Outer glow rings */}
             <div className="absolute w-80 h-80 lg:w-96 lg:h-96 rounded-full border border-purple-500/10 animate-spin-slow" />
             <div className="absolute w-72 h-72 lg:w-80 lg:h-80 rounded-full border border-purple-400/5 animate-spin-reverse" />
@@ -104,7 +104,7 @@ export function HeroSection({ onBrowse, onApply }: { onBrowse?: () => void; onAp
             <div className="absolute w-80 h-80 rounded-full bg-purple-500/40 blur-[100px] animate-pulse" />
 
             {/* Logo */}
-            <div className="relative z-10 w-[480px] h-[480px] lg:w-[600px] lg:h-[600px] flex items-center justify-center">
+            <div className="relative z-10 w-64 h-64 sm:w-80 sm:h-80 lg:w-[600px] lg:h-[600px] flex items-center justify-center">
               <img
                 src="/spstranPSai copy copy.png"
                 alt="Stateside Peptide Supply"

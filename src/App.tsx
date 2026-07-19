@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-[#0a0e1a]">
+    <div className="min-h-screen flex flex-col bg-[#0a0e1a] overflow-x-hidden">
       {/* Top bar */}
       <header className="sticky top-0 z-50 flex items-center justify-between px-4 lg:px-6 h-14 border-b border-slate-700/50 bg-[#0d1220]/95 backdrop-blur-sm shadow-sm">
         <div className="flex items-center gap-3">
