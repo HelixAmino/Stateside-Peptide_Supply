@@ -108,6 +108,19 @@ function App() {
 
       {page === "signup" && <MemberSignupForm onBack={() => setPage("home")} />}
 
+      {/* Floating cart button */}
+      {cart.count > 0 && !cartOpen && (
+        <button
+          onClick={() => setCartOpen(true)}
+          className="fixed bottom-6 right-6 z-50 flex items-center gap-2 px-5 py-3.5 bg-purple-600 text-white text-sm font-semibold rounded-full shadow-xl shadow-purple-900/40 hover:bg-purple-500 hover:scale-105 transition-all animate-in fade-in slide-in-from-bottom-4 duration-300"
+        >
+          <ShoppingCart className="w-5 h-5" />
+          <span>{cart.count} {cart.count === 1 ? 'item' : 'items'}</span>
+          <span className="w-px h-4 bg-purple-400/40" />
+          <span>${cart.subtotal.toFixed(2)}</span>
+        </button>
+      )}
+
       {/* Cart slide-over */}
       <CartPanel open={cartOpen} onClose={() => setCartOpen(false)} />
     </div>
