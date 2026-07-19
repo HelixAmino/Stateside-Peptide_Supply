@@ -35,7 +35,7 @@ function ProductRow({ product, qty, totalCartQty, onQtyChange, onAdd }: {
         <div className="flex items-start sm:items-center justify-between gap-3 flex-1 min-w-0">
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-2 flex-wrap">
-              <h3 className="text-sm font-semibold text-slate-100">{product.name}</h3>
+              <h3 className="text-sm font-semibold text-slate-100">{product.name} {product.specification.split(" x ")[0]}</h3>
               <TierBadge basePrice={product.basePrice} totalQty={totalCartQty} />
             </div>
             <div className="flex items-center gap-2 mt-0.5">
