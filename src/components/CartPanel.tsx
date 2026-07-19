@@ -1,6 +1,13 @@
-import { useState, useEffect } from "react";
-import { Trash2, Minus, Plus, X, ShoppingCart, Loader2, ExternalLink } from "lucide-react";
+import { useState, useEffect, useCallback } from "react";
+import { Trash2, Minus, Plus, X, ShoppingCart, Loader2, ExternalLink, CheckCircle, XCircle } from "lucide-react";
 import { useCart, type CartItem } from "../lib/cart";
+
+const SUPABASE_URL =
+  (import.meta.env.VITE_SUPABASE_URL as string) ||
+  "https://wwmpgpsyvbbdrxjjsbui.supabase.co";
+const SUPABASE_ANON_KEY =
+  (import.meta.env.VITE_SUPABASE_ANON_KEY as string) ||
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind3bXBncHN5dmJiZHJ4ampzYnVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwNDM0NjEsImV4cCI6MjA5NjYxOTQ2MX0.J1dIBtMdNDpQFbWmcEHjA3rUJVX_Wgzv3DOSXPiwPis";
 
 function QtyControl({ item, loading, setQty }: { item: CartItem; loading: boolean; setQty: (key: string, qty: number) => void }) {
   const [localVal, setLocalVal] = useState(String(item.qty));
@@ -51,8 +58,44 @@ function QtyControl({ item, loading, setQty }: { item: CartItem; loading: boolea
 export function CartPanel({ open, onClose }: { open: boolean; onClose: () => void }) {
   const cart = useCart();
   const [customerId, setCustomerId] = useState("");
+  const [idStatus, setIdStatus] = useState<"idle" | "checking" | "valid" | "invalid">("idle");
 
-  const canCheckout = cart.count >= 5 && !cart.loading && customerId.trim().length > 0;
+  const validateMemberId = useCallback(async (value: string) => {
+    const trimmed = value.trim();
+    if (!trimmed) {
+      setIdStatus("idle");
+      return;
+    }
+    setIdStatus("checking");
+    try {
+      const res = await fetch(
+        `${SUPABASE_URL}/rest/v1/members?select=member_id&member_id=eq.${encodeURIComponent(trimmed)}&active=eq.true`,
+        {
+          headers: {
+            apikey: SUPABASE_ANON_KEY,
+            Authorization: `Bearer ${SUPABASE_ANON_KEY}`,
+          },
+        }
+      );
+      if (!res.ok) {
+        setIdStatus("invalid");
+        return;
+      }
+      const rows = await res.json();
+      setIdStatus(Array.isArray(rows) && rows.length > 0 ? "valid" : "invalid");
+    } catch {
+      setIdStatus("invalid");
+    }
+  }, []);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      validateMemberId(customerId);
+    }, 500);
+    return () => clearTimeout(timeout);
+  }, [customerId, validateMemberId]);
+
+  const canCheckout = cart.count >= 5 && !cart.loading && idStatus === "valid";
 
   return (
     <>
@@ -164,18 +207,37 @@ export function CartPanel({ open, onClose }: { open: boolean; onClose: () => voi
 
               <div className="mt-2">
                 <label htmlFor="customer-id" className="block text-xs font-medium text-slate-700 mb-1">
-                  Customer ID <span className="text-red-500">*</span>
+                  Member ID <span className="text-red-500">*</span>
                 </label>
-                <input
-                  id="customer-id"
-                  type="text"
-                  value={customerId}
-                  onChange={(e) => setCustomerId(e.target.value)}
-                  placeholder="Enter your unique Customer ID"
-                  className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500/40 focus:border-purple-500 placeholder:text-slate-400 transition-all"
-                />
-                {customerId.trim().length === 0 && (
+                <div className="relative">
+                  <input
+                    id="customer-id"
+                    type="text"
+                    value={customerId}
+                    onChange={(e) => setCustomerId(e.target.value)}
+                    placeholder="Enter your Member ID"
+                    className={`w-full px-3 py-2 text-sm border rounded-lg focus:outline-none focus:ring-2 placeholder:text-slate-400 transition-all pr-9 ${
+                      idStatus === "valid"
+                        ? "border-green-400 focus:ring-green-500/40 focus:border-green-500"
+                        : idStatus === "invalid"
+                        ? "border-red-400 focus:ring-red-500/40 focus:border-red-500"
+                        : "border-slate-300 focus:ring-purple-500/40 focus:border-purple-500"
+                    }`}
+                  />
+                  <div className="absolute right-2.5 top-1/2 -translate-y-1/2">
+                    {idStatus === "checking" && <Loader2 className="w-4 h-4 text-slate-400 animate-spin" />}
+                    {idStatus === "valid" && <CheckCircle className="w-4 h-4 text-green-500" />}
+                    {idStatus === "invalid" && <XCircle className="w-4 h-4 text-red-500" />}
+                  </div>
+                </div>
+                {idStatus === "idle" && customerId.trim().length === 0 && (
                   <p className="text-[11px] text-slate-500 mt-1">Required to proceed to checkout</p>
+                )}
+                {idStatus === "invalid" && (
+                  <p className="text-[11px] text-red-500 mt-1">Invalid Member ID. Please check and try again.</p>
+                )}
+                {idStatus === "valid" && (
+                  <p className="text-[11px] text-green-600 mt-1">Member ID verified</p>
                 )}
               </div>
 
