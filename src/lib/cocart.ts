@@ -116,6 +116,10 @@ export async function clearCart(): Promise<CoCartResponse> {
   });
 }
 
-export function getCheckoutUrl(cartKey: string): string {
-  return `https://floorabovebrands.com/checkout/?cocart-load-cart=${cartKey}`;
+export function getCheckoutUrl(cartKey: string, customerId?: string): string {
+  let url = `https://floorabovebrands.com/checkout/?cocart-load-cart=${cartKey}`;
+  if (customerId) {
+    url += `&customer_id=${encodeURIComponent(customerId.trim())}`;
+  }
+  return url;
 }

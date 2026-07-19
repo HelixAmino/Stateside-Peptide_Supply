@@ -50,8 +50,9 @@ function QtyControl({ item, loading, setQty }: { item: CartItem; loading: boolea
 
 export function CartPanel({ open, onClose }: { open: boolean; onClose: () => void }) {
   const cart = useCart();
+  const [customerId, setCustomerId] = useState("");
 
-  const canCheckout = cart.count >= 5 && !cart.loading;
+  const canCheckout = cart.count >= 5 && !cart.loading && customerId.trim().length > 0;
 
   return (
     <>
@@ -160,10 +161,28 @@ export function CartPanel({ open, onClose }: { open: boolean; onClose: () => voi
                 <span>${cart.subtotal.toFixed(2)}</span>
               </div>
               <p className="text-xs text-slate-400">Shipping & tax calculated at checkout</p>
+
+              <div className="mt-2">
+                <label htmlFor="customer-id" className="block text-xs font-medium text-slate-700 mb-1">
+                  Customer ID <span className="text-red-500">*</span>
+                </label>
+                <input
+                  id="customer-id"
+                  type="text"
+                  value={customerId}
+                  onChange={(e) => setCustomerId(e.target.value)}
+                  placeholder="Enter your unique Customer ID"
+                  className="w-full px-3 py-2 text-sm border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500/40 focus:border-purple-500 placeholder:text-slate-400 transition-all"
+                />
+                {customerId.trim().length === 0 && (
+                  <p className="text-[11px] text-slate-500 mt-1">Required to proceed to checkout</p>
+                )}
+              </div>
+
               <button
-                onClick={() => cart.checkout()}
+                onClick={() => cart.checkout(customerId.trim())}
                 disabled={!canCheckout}
-                className="w-full mt-2 px-4 py-3 text-sm font-semibold text-white bg-purple-600 rounded-lg hover:bg-purple-500 disabled:bg-slate-300 disabled:text-slate-500 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2"
+                className="w-full mt-3 px-4 py-3 text-sm font-semibold text-white bg-purple-600 rounded-lg hover:bg-purple-500 disabled:bg-slate-300 disabled:text-slate-500 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2"
               >
                 <ExternalLink className="w-4 h-4" />
                 Proceed to Checkout

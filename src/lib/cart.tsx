@@ -27,7 +27,7 @@ type CartCtx = {
   remove: (itemKey: string) => Promise<void>;
   setQty: (itemKey: string, qty: number) => Promise<void>;
   clear: () => Promise<void>;
-  checkout: () => void;
+  checkout: (customerId?: string) => void;
   count: number;
   subtotal: number;
   total: number;
@@ -173,9 +173,9 @@ export function CartProvider({ children }: { children: ReactNode }) {
           setLoading(false);
         }
       },
-      checkout: () => {
+      checkout: (customerId?: string) => {
         if (cartKey) {
-          window.location.href = cocart.getCheckoutUrl(cartKey);
+          window.location.href = cocart.getCheckoutUrl(cartKey, customerId);
         }
       },
     };
