@@ -107,15 +107,16 @@ export function MemberSignupForm({ onBack }: { onBack: () => void }) {
         </button>
 
         <div className="rounded-2xl border border-slate-700/60 bg-[#111827] p-8">
-          <div className="flex items-center gap-3 mb-6">
+          <div className="flex items-center gap-3 mb-4">
             <div className="w-10 h-10 rounded-full bg-purple-600/10 border border-purple-500/30 flex items-center justify-center">
               <UserPlus className="w-5 h-5 text-purple-400" />
             </div>
-            <div>
-              <h1 className="text-xl font-bold text-white">Member Application</h1>
-              <p className="text-slate-400 text-xs">Fill out all required fields to apply</p>
-            </div>
+            <h1 className="text-xl font-bold text-white">Member Application</h1>
           </div>
+
+          <p className="text-slate-400 text-sm leading-relaxed mb-6">
+            Thank you for your interest in our research use only platform. We operate exclusively as a B2B supplier, serving established resellers, research suppliers, laboratories, universities, and similar trade groups. You can browse our full catalog and build a cart, but checkout requires a member ID. Your application will be reviewed within 24 hours. If approved, you'll receive your username to enter at checkout and complete your purchase through our secure gateway. To help us verify your business, please include your website, Discord, WhatsApp, or other relevant social channels.
+          </p>
 
           {formState === "error" && (
             <div className="mb-5 p-3 rounded-xl bg-red-500/10 border border-red-500/30 flex items-start gap-2">
