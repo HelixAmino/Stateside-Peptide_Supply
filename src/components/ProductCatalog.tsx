@@ -155,6 +155,17 @@ export function ProductCatalog() {
       if (!map.has(cat)) map.set(cat, []);
       map.get(cat)!.push(p);
     }
+    const glp = map.get("GLP-1 Agonists");
+    if (glp) {
+      const priority: Record<string, number> = { "Retatrutide": 0, "Tirzepatide": 1, "Cagrilintide": 2 };
+      glp.sort((a, b) => {
+        const pa = priority[a.name] ?? 3;
+        const pb = priority[b.name] ?? 3;
+        if (pa !== pb) return pa - pb;
+        if (pa === 3) return a.name.localeCompare(b.name);
+        return 0;
+      });
+    }
     return map;
   }, [filtered]);
 
