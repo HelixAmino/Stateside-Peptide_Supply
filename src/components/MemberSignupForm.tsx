@@ -135,7 +135,7 @@ export function MemberSignupForm({ onBack }: { onBack: () => void }) {
               />
             </Field>
 
-            <Field label="Company Name" required>
+            <Field label="Company / Group Name" required>
               <input
                 type="text"
                 value={companyName}
