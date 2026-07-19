@@ -4,10 +4,10 @@ import { useCart, type CartItem } from "../lib/cart";
 
 const SUPABASE_URL =
   (import.meta.env.VITE_SUPABASE_URL as string) ||
-  "https://wwmpgpsyvbbdrxjjsbui.supabase.co";
+  "https://xvkzxjbpqbruuywebogn.supabase.co";
 const SUPABASE_ANON_KEY =
   (import.meta.env.VITE_SUPABASE_ANON_KEY as string) ||
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind3bXBncHN5dmJiZHJ4ampzYnVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwNDM0NjEsImV4cCI6MjA5NjYxOTQ2MX0.J1dIBtMdNDpQFbWmcEHjA3rUJVX_Wgzv3DOSXPiwPis";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh2a3p4amJwcWJydXV5d2Vib2duIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ0MTI3MTUsImV4cCI6MjA5OTk4ODcxNX0.6zmTKC4wmPEiCcwNeOpPyD-buj1PAE1ZTSt39aVM_0Q";
 
 function QtyControl({ item, loading, setQty }: { item: CartItem; loading: boolean; setQty: (key: string, qty: number) => void }) {
   const [localVal, setLocalVal] = useState(String(item.qty));
@@ -69,7 +69,7 @@ export function CartPanel({ open, onClose }: { open: boolean; onClose: () => voi
     setIdStatus("checking");
     try {
       const res = await fetch(
-        `${SUPABASE_URL}/rest/v1/members?select=member_id&member_id=ilike.${encodeURIComponent(trimmed)}&active=eq.true`,
+        `${SUPABASE_URL}/rest/v1/members?select=member_id&member_id=eq.${encodeURIComponent(trimmed.toLowerCase())}&active=eq.true`,
         {
           headers: {
             apikey: SUPABASE_ANON_KEY,

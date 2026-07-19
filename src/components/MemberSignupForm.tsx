@@ -3,10 +3,10 @@ import { UserPlus, CheckCircle, AlertCircle } from "lucide-react";
 
 const SUPABASE_URL =
   (import.meta.env.VITE_SUPABASE_URL as string) ||
-  "https://wwmpgpsyvbbdrxjjsbui.supabase.co";
+  "https://xvkzxjbpqbruuywebogn.supabase.co";
 const SUPABASE_ANON_KEY =
   (import.meta.env.VITE_SUPABASE_ANON_KEY as string) ||
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Ind3bXBncHN5dmJiZHJ4ampzYnVpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEwNDM0NjEsImV4cCI6MjA5NjYxOTQ2MX0.J1dIBtMdNDpQFbWmcEHjA3rUJVX_Wgzv3DOSXPiwPis";
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inh2a3p4amJwcWJydXV5d2Vib2duIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQ0MTI3MTUsImV4cCI6MjA5OTk4ODcxNX0.6zmTKC4wmPEiCcwNeOpPyD-buj1PAE1ZTSt39aVM_0Q";
 
 type FormState = "idle" | "submitting" | "success" | "error";
 
