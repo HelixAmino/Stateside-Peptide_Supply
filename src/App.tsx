@@ -1,13 +1,14 @@
 import { useState, useRef } from "react";
-import { ShoppingCart, Truck, HelpCircle } from "lucide-react";
+import { ShoppingCart, Truck, HelpCircle, UserPlus } from "lucide-react";
 import { ProductCatalog } from "./components/ProductCatalog";
 import { CartPanel } from "./components/CartPanel";
 import { HeroSection } from "./components/HeroSection";
 import { FaqPage } from "./components/FaqPage";
+import { MemberSignupForm } from "./components/MemberSignupForm";
 import { AgeGate, useAgeVerified } from "./components/AgeGate";
 import { useCart } from "./lib/cart";
 
-type Page = "home" | "faq";
+type Page = "home" | "faq" | "signup";
 
 function App() {
   const [cartOpen, setCartOpen] = useState(false);
@@ -55,6 +56,18 @@ function App() {
           </div>
 
           <button
+            onClick={() => setPage("signup")}
+            className={`inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-xl transition-colors ${
+              page === "signup"
+                ? "text-purple-300 bg-purple-500/10"
+                : "text-slate-400 hover:text-slate-200 hover:bg-slate-800/60"
+            }`}
+          >
+            <UserPlus className="w-4 h-4" />
+            <span className="hidden sm:inline">Apply</span>
+          </button>
+
+          <button
             onClick={() => setPage("faq")}
             className={`inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-xl transition-colors ${
               page === "faq"
@@ -92,6 +105,8 @@ function App() {
       )}
 
       {page === "faq" && <FaqPage />}
+
+      {page === "signup" && <MemberSignupForm onBack={() => setPage("home")} />}
 
       {/* Cart slide-over */}
       <CartPanel open={cartOpen} onClose={() => setCartOpen(false)} />
