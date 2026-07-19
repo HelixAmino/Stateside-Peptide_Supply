@@ -95,8 +95,8 @@ export const PRODUCTS: Product[] = [
   { productId: 1119, sku: "SPS39.BB20", name: "Wolverine — BPC 157 10mg + TB 500 10mg", category: "Repair & Recovery", specification: "20mg x 10 vials", basePrice: 82 },
 
   // GLOW combo
-  { productId: 1120, sku: "SPS39.GLOW70", name: "BPC 157 + GHK-Cu + TB 500", category: "Repair & Recovery", specification: "70mg x 10 vials", basePrice: 130 },
-  { productId: 1121, sku: "SPS39.KLOW80", name: "BPC 157 + TB 500 + GHK-Cu + KPV", category: "Repair & Recovery", specification: "80mg x 10 vials", basePrice: 167 },
+  { productId: 1120, sku: "SPS39.GLOW70", name: "GLOW — BPC 157 + GHK-Cu + TB 500", category: "Repair & Recovery", specification: "70mg x 10 vials", basePrice: 130 },
+  { productId: 1121, sku: "SPS39.KLOW80", name: "KLOW — BPC 157 + TB 500 + GHK-Cu + KPV", category: "Repair & Recovery", specification: "80mg x 10 vials", basePrice: 167 },
 
   // GHK-Cu
   { productId: 1122, sku: "SPS39.CU50", name: "GHK-Cu", category: "Skin & Anti-Aging", specification: "50mg x 10 vials", basePrice: 24 },
