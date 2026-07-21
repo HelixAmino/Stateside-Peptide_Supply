@@ -44,7 +44,7 @@ const FAQ_DATA = [
   },
   {
     q: "Is private labeling available?",
-    a: 'Yes, it\u2019s available. If you\u2019re interested, email info@statesidepeptidesupply.com',
+    a: 'Yes, it\u2019s available. If you\u2019re interested, email info@statesidepeps.com',
   },
 ];
 
@@ -71,10 +71,10 @@ function FaqItem({ question, answer }: { question: string; answer: string }) {
               <>
                 Yes, it&#8217;s available. If you&#8217;re interested, email{" "}
                 <a
-                  href="mailto:info@statesidepeptidesupply.com"
+                  href="mailto:info@statesidepeps.com"
                   className="text-purple-400 hover:text-purple-300 underline underline-offset-2"
                 >
-                  info@statesidepeptidesupply.com
+                  info@statesidepeps.com
                 </a>
               </>
             ) : (
