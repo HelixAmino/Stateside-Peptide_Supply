@@ -2268,60 +2268,6 @@
     "best_price": 80
   },
   {
-    "id": "LIR10|10mg",
-    "product": "LIR10",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 480,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 480
-  },
-  {
-    "id": "LIR30|20mg",
-    "product": "LIR30",
-    "strength": "20mg",
-    "spec": "20mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 890,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 890
-  },
-  {
-    "id": "LIR5|5mg",
-    "product": "LIR5",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 270,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "LIRAGLUTIDE",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 270
-  },
-  {
     "id": "Liraglutide|10mg",
     "product": "Liraglutide",
     "strength": "10mg",
