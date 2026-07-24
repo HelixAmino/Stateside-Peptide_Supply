@@ -215,17 +215,21 @@ export function OrderOptimizer({ onBack }: { onBack: () => void }) {
               </div>
 
               {/* Catalog header */}
-              <div className="flex items-center justify-between px-2 pb-2 mb-2 border-b border-slate-200">
-                <div className="hidden sm:grid grid-cols-[1fr_80px_80px_80px_100px] gap-2 flex-1 text-xs font-medium text-slate-500 uppercase tracking-wide">
+              <div className="px-2 pb-2 mb-2 border-b border-slate-200">
+                <div className="hidden sm:grid grid-cols-[1fr_70px_70px_70px_90px_50px] gap-2 items-center text-xs font-medium text-slate-500 uppercase tracking-wide">
                   <span>Product</span>
                   <span className="text-center">Viv</span>
-                  <span className="text-center">价格表</span>
-                  <span className="text-center">Direct</span>
+                  <span className="text-center">DIR</span>
+                  <span className="text-center">DF</span>
                   <span className="text-center">Qty</span>
+                  <span className="text-center">Best</span>
                 </div>
-                <span className="text-xs text-slate-400 shrink-0 ml-2">
-                  {filteredCatalog.length} of {CATALOG.length} items
-                </span>
+                <div className="sm:hidden flex justify-between items-center">
+                  <span className="text-xs font-medium text-slate-500 uppercase">Products</span>
+                  <span className="text-xs text-slate-400">
+                    {filteredCatalog.length} of {CATALOG.length} items
+                  </span>
+                </div>
               </div>
 
               <div className="max-h-[75vh] overflow-y-auto">
@@ -367,69 +371,98 @@ function CatalogRow({
   onAdd: () => void;
 }) {
   return (
-    <div className="flex items-center gap-2 py-2.5 px-2 hover:bg-slate-50 rounded-lg border-b border-slate-100 last:border-0">
-      <div className="flex-1 min-w-0">
-        <div className="font-medium text-sm truncate">{item.product}</div>
-        <div className="text-xs text-slate-500">
-          {item.strength} — {item.spec}
-        </div>
-        {/* Mobile price display */}
-        <div className="sm:hidden flex flex-wrap gap-x-3 gap-y-0.5 mt-1">
-          {SUPPLIER_NAMES.map((s) => {
-            const p = item.prices[s];
-            if (p == null) return null;
-            const isBest = s === item.best_source;
-            return (
-              <span key={s} className={`text-xs ${isBest ? "font-bold text-green-700" : "text-slate-600"}`}>
-                {s}: {rmb(p)} {isBest && "★"}
-              </span>
-            );
-          })}
-        </div>
-      </div>
-
-      {/* Desktop price columns */}
-      {SUPPLIER_NAMES.map((s) => {
-        const p = item.prices[s];
-        const isBest = s === item.best_source;
-        return (
-          <div key={s} className="hidden sm:block w-20 text-center">
-            {p == null ? (
-              <span className="text-slate-300 text-xs">—</span>
-            ) : (
-              <div>
-                <span className={`text-xs ${isBest ? "font-bold text-green-700" : "text-slate-600"}`}>
-                  {rmb(p)} {isBest && "★"}
-                </span>
-                <div className="text-[10px] text-slate-400">{usdStr(p, rate)}</div>
-              </div>
-            )}
+    <div className="py-2.5 px-2 hover:bg-slate-50 rounded-lg border-b border-slate-100 last:border-0">
+      {/* Desktop grid row */}
+      <div className="hidden sm:grid grid-cols-[1fr_70px_70px_70px_90px_50px] gap-2 items-center">
+        <div className="min-w-0">
+          <div className="font-medium text-sm truncate">{item.product}</div>
+          <div className="text-xs text-slate-500">
+            {item.strength} — {item.spec}
           </div>
-        );
-      })}
+        </div>
 
-      <div className="flex items-center gap-1.5 shrink-0">
-        <input
-          type="number"
-          min="0"
-          max="999"
-          value={qty}
-          onChange={(e) => onSetQty(parseInt(e.target.value) || 0)}
-          onClick={(e) => (e.target as HTMLInputElement).select()}
-          className="w-14 px-2 py-1 border border-slate-300 rounded text-sm text-center focus:outline-none focus:ring-1 focus:ring-blue-500"
-        />
-        <button
-          onClick={onAdd}
-          className="px-2.5 py-1 bg-blue-600 text-white text-xs font-medium rounded hover:bg-blue-700 transition-colors"
-        >
-          +
-        </button>
+        {SUPPLIER_NAMES.map((s) => {
+          const p = item.prices[s];
+          const isBest = s === item.best_source;
+          return (
+            <div key={s} className="text-center">
+              {p == null ? (
+                <span className="text-slate-300 text-xs">—</span>
+              ) : (
+                <div>
+                  <span className={`text-xs ${isBest ? "font-bold text-green-700" : "text-slate-600"}`}>
+                    {rmb(p)} {isBest && "★"}
+                  </span>
+                  <div className="text-[10px] text-slate-400">{usdStr(p, rate)}</div>
+                </div>
+              )}
+            </div>
+          );
+        })}
+
+        <div className="flex items-center justify-center gap-1">
+          <input
+            type="number"
+            min="0"
+            max="999"
+            value={qty}
+            onChange={(e) => onSetQty(parseInt(e.target.value) || 0)}
+            onClick={(e) => (e.target as HTMLInputElement).select()}
+            className="w-12 px-1 py-1 border border-slate-300 rounded text-sm text-center focus:outline-none focus:ring-1 focus:ring-blue-500"
+          />
+          <button
+            onClick={onAdd}
+            className="px-2 py-1 bg-blue-600 text-white text-xs font-medium rounded hover:bg-blue-700 transition-colors"
+          >
+            +
+          </button>
+        </div>
+
+        <div className="text-center">
+          <span className={`text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap ${SUPPLIER_BADGE[item.best_source]}`}>
+            {item.best_source === "Direct Factory" ? "DF" : item.best_source === "价格表" ? "DIR" : item.best_source}
+          </span>
+        </div>
       </div>
 
-      {/* Best source badge */}
-      <span className={`hidden lg:inline-block text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap ${SUPPLIER_BADGE[item.best_source]}`}>
-        {item.best_source === "Direct Factory" ? "DF" : item.best_source === "价格表" ? "DIR" : item.best_source}
-      </span>
+      {/* Mobile layout */}
+      <div className="sm:hidden flex items-center gap-2">
+        <div className="flex-1 min-w-0">
+          <div className="font-medium text-sm truncate">{item.product}</div>
+          <div className="text-xs text-slate-500">
+            {item.strength} — {item.spec}
+          </div>
+          <div className="flex flex-wrap gap-x-3 gap-y-0.5 mt-1">
+            {SUPPLIER_NAMES.map((s) => {
+              const p = item.prices[s];
+              if (p == null) return null;
+              const isBest = s === item.best_source;
+              return (
+                <span key={s} className={`text-xs ${isBest ? "font-bold text-green-700" : "text-slate-600"}`}>
+                  {s === "Direct Factory" ? "DF" : s === "价格表" ? "DIR" : s}: {rmb(p)} {isBest && "★"}
+                </span>
+              );
+            })}
+          </div>
+        </div>
+        <div className="flex items-center gap-1 shrink-0">
+          <input
+            type="number"
+            min="0"
+            max="999"
+            value={qty}
+            onChange={(e) => onSetQty(parseInt(e.target.value) || 0)}
+            onClick={(e) => (e.target as HTMLInputElement).select()}
+            className="w-12 px-1 py-1 border border-slate-300 rounded text-sm text-center focus:outline-none focus:ring-1 focus:ring-blue-500"
+          />
+          <button
+            onClick={onAdd}
+            className="px-2 py-1 bg-blue-600 text-white text-xs font-medium rounded hover:bg-blue-700 transition-colors"
+          >
+            +
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
