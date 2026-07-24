@@ -1028,24 +1028,7 @@
     "best_source": "Direct Factory",
     "best_price": 380
   },
-  {
-    "id": "EP0|3000iu",
-    "product": "EP0",
-    "strength": "3000iu",
-    "spec": "3000iu",
-    "prices": {
-      "Viv": null,
-      "价格表": 180,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "EPO",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 180
-  },
+
   {
     "id": "Epitalon|10mg",
     "product": "Epitalon",
@@ -1089,12 +1072,12 @@
     "spec": "3000iu",
     "prices": {
       "Viv": 120,
-      "价格表": null,
+      "价格表": 180,
       "Direct Factory": 180
     },
     "codes": {
       "Viv": "EPO",
-      "价格表": "",
+      "价格表": "EPO",
       "Direct Factory": "EP0"
     },
     "best_source": "Viv",
