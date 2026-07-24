@@ -468,42 +468,6 @@
     "best_price": 660
   },
   {
-    "id": "BAC Water|3ml",
-    "product": "BAC Water",
-    "strength": "3ml",
-    "spec": "3ml*10vials",
-    "prices": {
-      "Viv": 15,
-      "价格表": 20,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "WA3",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "Viv",
-    "best_price": 15
-  },
-  {
-    "id": "BAC Water|10ml",
-    "product": "BAC Water",
-    "strength": "10ml",
-    "spec": "10ml*10vials",
-    "prices": {
-      "Viv": 19,
-      "价格表": 25,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "WA10",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "Viv",
-    "best_price": 19
-  },
-  {
     "id": "BB10|10mg",
     "product": "BB10",
     "strength": "10mg",
