@@ -899,78 +899,7 @@
     "best_source": "Viv",
     "best_price": 195
   },
-  {
-    "id": "Dermorphin|10mg",
-    "product": "Dermorphin",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": null,
-      "Direct Factory": 240
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": "DR10"
-    },
-    "best_source": "Direct Factory",
-    "best_price": 240
-  },
-  {
-    "id": "Dermorphin|20mg",
-    "product": "Dermorphin",
-    "strength": "20mg",
-    "spec": "20mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": null,
-      "Direct Factory": 400
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": "DR20"
-    },
-    "best_source": "Direct Factory",
-    "best_price": 400
-  },
-  {
-    "id": "Dermorphin|2mg",
-    "product": "Dermorphin",
-    "strength": "2mg",
-    "spec": "2mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": null,
-      "Direct Factory": 86
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": "DR2"
-    },
-    "best_source": "Direct Factory",
-    "best_price": 86
-  },
-  {
-    "id": "Dermorphin|5mg",
-    "product": "Dermorphin",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": 110,
-      "价格表": null,
-      "Direct Factory": 150
-    },
-    "codes": {
-      "Viv": "DR5",
-      "价格表": "",
-      "Direct Factory": "DR5"
-    },
-    "best_source": "Viv",
-    "best_price": 110
-  },
+
   {
     "id": "Dihexa|10mg",
     "product": "Dihexa",
@@ -1007,78 +936,7 @@
     "best_source": "Viv",
     "best_price": 95
   },
-  {
-    "id": "DR10|10mg",
-    "product": "DR10",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 240,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 240
-  },
-  {
-    "id": "DR2|2mg",
-    "product": "DR2",
-    "strength": "2mg",
-    "spec": "2mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 86,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "DERMORPHIN(DP)",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 86
-  },
-  {
-    "id": "DR20|20mg",
-    "product": "DR20",
-    "strength": "20mg",
-    "spec": "20mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 400,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 400
-  },
-  {
-    "id": "DR5|5mg",
-    "product": "DR5",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 150,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 150
-  },
+
   {
     "id": "DSIP|10mg",
     "product": "DSIP",
