@@ -450,24 +450,6 @@
     "best_price": 175
   },
   {
-    "id": "BB20|20mg",
-    "product": "BB20",
-    "strength": "20mg",
-    "spec": "20mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 200,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "BP157 10MG+T500 10MG",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 200
-  },
-  {
     "id": "BP157 10mg+T500 10mg|20mg",
     "product": "BP157 10mg+T500 10mg",
     "strength": "20mg",
@@ -484,24 +466,6 @@
     },
     "best_source": "Direct Factory",
     "best_price": 200
-  },
-  {
-    "id": "BPC + TB Blend|20mg",
-    "product": "BPC + TB Blend",
-    "strength": "20mg",
-    "spec": "20mg*10vials",
-    "prices": {
-      "Viv": 400,
-      "价格表": null,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "BB20",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "Viv",
-    "best_price": 400
   },
   {
     "id": "BPC-157|10mg",
@@ -4642,5 +4606,23 @@
     },
     "best_source": "价格表",
     "best_price": 130
+  },
+  {
+    "id": "Wolverine Blend (BPC+TB)|20mg",
+    "product": "Wolverine Blend (BPC+TB)",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 400,
+      "价格表": 200,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "BB20",
+      "价格表": "BP157 10MG+T500 10MG",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 200
   }
 ]
