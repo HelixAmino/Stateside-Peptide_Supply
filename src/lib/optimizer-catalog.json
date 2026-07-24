@@ -1698,15 +1698,15 @@
     "spec": "2mg*10vials",
     "prices": {
       "Viv": 70,
-      "价格表": null,
+      "价格表": 67,
       "Direct Factory": 67
     },
     "codes": {
       "Viv": "HX2",
-      "价格表": "",
+      "价格表": "HEXARELIN ACETATE",
       "Direct Factory": "HX2"
     },
-    "best_source": "Direct Factory",
+    "best_source": "价格表",
     "best_price": 67
   },
   {
@@ -1716,7 +1716,7 @@
     "spec": "5mg*10vials",
     "prices": {
       "Viv": 150,
-      "价格表": null,
+      "价格表": 125,
       "Direct Factory": 125
     },
     "codes": {
@@ -1724,7 +1724,7 @@
       "价格表": "",
       "Direct Factory": "HX5"
     },
-    "best_source": "Direct Factory",
+    "best_source": "价格表",
     "best_price": 125
   },
   {
@@ -1978,42 +1978,6 @@
     },
     "best_source": "Viv",
     "best_price": 480
-  },
-  {
-    "id": "HX2|2mg",
-    "product": "HX2",
-    "strength": "2mg",
-    "spec": "2mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 67,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "HEXARELIN ACETATE",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 67
-  },
-  {
-    "id": "HX5|5mg",
-    "product": "HX5",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 125,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 125
   },
   {
     "id": "IGD|2mg",
