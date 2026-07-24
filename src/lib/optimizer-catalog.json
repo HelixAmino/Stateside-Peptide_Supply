@@ -1,0 +1,4754 @@
+[
+  {
+    "id": "(BPC157 10mg+GHK-CU50mg+TB500 10mg+kpv10mg)|80mg",
+    "product": "(BPC157 10mg+GHK-CU50mg+TB500 10mg+kpv10mg)",
+    "strength": "80mg",
+    "spec": "80mg*10vials",
+    "prices": {
+      "Viv": 500,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "KLOW80",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 500
+  },
+  {
+    "id": "5-Amino-1MQ|5mg",
+    "product": "5-Amino-1MQ",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 20,
+      "价格表": 75,
+      "Direct Factory": 220
+    },
+    "codes": {
+      "Viv": "5AM",
+      "价格表": "5AM",
+      "Direct Factory": "5AM"
+    },
+    "best_source": "Viv",
+    "best_price": 20
+  },
+  {
+    "id": "5-Amino-1MQ|10mg",
+    "product": "5-Amino-1MQ",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": 100,
+      "Direct Factory": 315
+    },
+    "codes": {
+      "Viv": "10AM",
+      "价格表": "10AM",
+      "Direct Factory": "10AM"
+    },
+    "best_source": "Viv",
+    "best_price": 65
+  },
+  {
+    "id": "5-Amino-1MQ|50mg",
+    "product": "5-Amino-1MQ",
+    "strength": "50mg",
+    "spec": "50mg*10vials",
+    "prices": {
+      "Viv": 300,
+      "价格表": 150,
+      "Direct Factory": 980
+    },
+    "codes": {
+      "Viv": "50AM",
+      "价格表": "50AM",
+      "Direct Factory": "50AM"
+    },
+    "best_source": "价格表",
+    "best_price": 150
+  },
+  {
+    "id": "ACE-031|1mg",
+    "product": "ACE-031",
+    "strength": "1mg",
+    "spec": "1mg*10vials",
+    "prices": {
+      "Viv": 145,
+      "价格表": null,
+      "Direct Factory": 293
+    },
+    "codes": {
+      "Viv": "AC1",
+      "价格表": "",
+      "Direct Factory": "AE1"
+    },
+    "best_source": "Viv",
+    "best_price": 145
+  },
+  {
+    "id": "ACTH 1-39|5mg",
+    "product": "ACTH 1-39",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 220,
+      "价格表": null,
+      "Direct Factory": 220
+    },
+    "codes": {
+      "Viv": "AC5",
+      "价格表": "",
+      "Direct Factory": "ACTH5"
+    },
+    "best_source": "Viv",
+    "best_price": 220
+  },
+  {
+    "id": "Adamax|5mg",
+    "product": "Adamax",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": 320,
+      "Direct Factory": 190
+    },
+    "codes": {
+      "Viv": "ADAMAX5",
+      "价格表": "ADA5",
+      "Direct Factory": "ADA5"
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "Adamax|10mg",
+    "product": "Adamax",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 160,
+      "价格表": 565,
+      "Direct Factory": 320
+    },
+    "codes": {
+      "Viv": "ADAMAX10",
+      "价格表": "ADA10",
+      "Direct Factory": "ADA10"
+    },
+    "best_source": "Viv",
+    "best_price": 160
+  },
+  {
+    "id": "Adamax|20mg",
+    "product": "Adamax",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 280,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "ADAMAX20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 280
+  },
+  {
+    "id": "Adipotide|2mg",
+    "product": "Adipotide",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 120,
+      "价格表": null,
+      "Direct Factory": 103
+    },
+    "codes": {
+      "Viv": "AP2",
+      "价格表": "",
+      "Direct Factory": "AP2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 103
+  },
+  {
+    "id": "Adipotide|5mg",
+    "product": "Adipotide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 300,
+      "价格表": null,
+      "Direct Factory": 200
+    },
+    "codes": {
+      "Viv": "AP5",
+      "价格表": "",
+      "Direct Factory": "AP5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 200
+  },
+  {
+    "id": "AE1|1mg",
+    "product": "AE1",
+    "strength": "1mg",
+    "spec": "1mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 293,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "ACE-031",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 293
+  },
+  {
+    "id": "AICAR|50mg",
+    "product": "AICAR",
+    "strength": "50mg",
+    "spec": "50mg*10vials",
+    "prices": {
+      "Viv": 70,
+      "价格表": null,
+      "Direct Factory": 96
+    },
+    "codes": {
+      "Viv": "AR50",
+      "价格表": "",
+      "Direct Factory": "AR50"
+    },
+    "best_source": "Viv",
+    "best_price": 70
+  },
+  {
+    "id": "AICAR|100mg",
+    "product": "AICAR",
+    "strength": "100mg",
+    "spec": "100mg*10vials",
+    "prices": {
+      "Viv": 130,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "AR100",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 130
+  },
+  {
+    "id": "AOD-9604|2mg",
+    "product": "AOD-9604",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 60,
+      "价格表": 130,
+      "Direct Factory": 120
+    },
+    "codes": {
+      "Viv": "2AD",
+      "价格表": "2AD",
+      "Direct Factory": "2AD"
+    },
+    "best_source": "Viv",
+    "best_price": 60
+  },
+  {
+    "id": "AOD-9604|5mg",
+    "product": "AOD-9604",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 200,
+      "价格表": 215,
+      "Direct Factory": 230
+    },
+    "codes": {
+      "Viv": "5AD",
+      "价格表": "5AD",
+      "Direct Factory": "5AD"
+    },
+    "best_source": "Viv",
+    "best_price": 200
+  },
+  {
+    "id": "AOD-9604|10mg",
+    "product": "AOD-9604",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 410,
+      "价格表": 360,
+      "Direct Factory": 400
+    },
+    "codes": {
+      "Viv": "10AD",
+      "价格表": "10AD",
+      "Direct Factory": "10AD"
+    },
+    "best_source": "价格表",
+    "best_price": 360
+  },
+  {
+    "id": "AP2|2mg",
+    "product": "AP2",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 103,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "ADIPOTIDE",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 103
+  },
+  {
+    "id": "AP5|5mg",
+    "product": "AP5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 200,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 200
+  },
+  {
+    "id": "AR50|50mg",
+    "product": "AR50",
+    "strength": "50mg",
+    "spec": "50mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 96,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "AICAR",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 96
+  },
+  {
+    "id": "ARA-290|10mg",
+    "product": "ARA-290",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 150,
+      "价格表": 280,
+      "Direct Factory": 180
+    },
+    "codes": {
+      "Viv": "RA10",
+      "价格表": "RA10",
+      "Direct Factory": "RA10"
+    },
+    "best_source": "Viv",
+    "best_price": 150
+  },
+  {
+    "id": "ARA-290|16mg",
+    "product": "ARA-290",
+    "strength": "16mg",
+    "spec": "16mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 355,
+      "Direct Factory": 300
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "RA16",
+      "Direct Factory": "RA16"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 300
+  },
+  {
+    "id": "B-12|10mg",
+    "product": "B-12",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 40,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "B-12",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 40
+  },
+  {
+    "id": "B-12|10ml",
+    "product": "B-12",
+    "strength": "10ml",
+    "spec": "10ml*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "B7-33|2mg",
+    "product": "B7-33",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 175,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "B7-33",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 175
+  },
+  {
+    "id": "B7-33|10mg",
+    "product": "B7-33",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 660,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "B7-33",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 660
+  },
+  {
+    "id": "BAC Water|3ml",
+    "product": "BAC Water",
+    "strength": "3ml",
+    "spec": "3ml*10vials",
+    "prices": {
+      "Viv": 15,
+      "价格表": 20,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "WA3",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 15
+  },
+  {
+    "id": "BAC Water|10ml",
+    "product": "BAC Water",
+    "strength": "10ml",
+    "spec": "10ml*10vials",
+    "prices": {
+      "Viv": 19,
+      "价格表": 25,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "WA10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 19
+  },
+  {
+    "id": "BB10|10mg",
+    "product": "BB10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 130,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "BPC5+TB5",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 130
+  },
+  {
+    "id": "BB20|20mg",
+    "product": "BB20",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 200,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "BP157 10MG+T500 10MG",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 200
+  },
+  {
+    "id": "BP157 10mg+T500 10mg|20mg",
+    "product": "BP157 10mg+T500 10mg",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 200
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "BB20"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 200
+  },
+  {
+    "id": "BPC + TB Blend|10mg",
+    "product": "BPC + TB Blend",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 180,
+      "价格表": null,
+      "Direct Factory": 130
+    },
+    "codes": {
+      "Viv": "BB10",
+      "价格表": "",
+      "Direct Factory": "BB10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 130
+  },
+  {
+    "id": "BPC + TB Blend|20mg",
+    "product": "BPC + TB Blend",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 400,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "BB20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 400
+  },
+  {
+    "id": "BPC-157|2mg",
+    "product": "BPC-157",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 40,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "BC2/BP2",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 40
+  },
+  {
+    "id": "BPC-157|5mg",
+    "product": "BPC-157",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 60,
+      "价格表": 70,
+      "Direct Factory": 70
+    },
+    "codes": {
+      "Viv": "BC5/BP5",
+      "价格表": "BPC5",
+      "Direct Factory": "BC5"
+    },
+    "best_source": "Viv",
+    "best_price": 60
+  },
+  {
+    "id": "BPC-157|10mg",
+    "product": "BPC-157",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 90,
+      "价格表": 86,
+      "Direct Factory": 86
+    },
+    "codes": {
+      "Viv": "BC10/BP10",
+      "价格表": "BPC10",
+      "Direct Factory": "BC10"
+    },
+    "best_source": "价格表",
+    "best_price": 86
+  },
+  {
+    "id": "Bronchogen|20mg",
+    "product": "Bronchogen",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 240,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "BRON",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 240
+  },
+  {
+    "id": "Cagrilintide|5mg",
+    "product": "Cagrilintide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 270,
+      "价格表": 260,
+      "Direct Factory": 138
+    },
+    "codes": {
+      "Viv": "CGL5",
+      "价格表": "CGL5",
+      "Direct Factory": "CGL5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 138
+  },
+  {
+    "id": "Cagrilintide|10mg",
+    "product": "Cagrilintide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 530,
+      "价格表": 415,
+      "Direct Factory": 218
+    },
+    "codes": {
+      "Viv": "CGL10",
+      "价格表": "CGL10",
+      "Direct Factory": "CGL10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 218
+  },
+  {
+    "id": "CAR10|10mg",
+    "product": "CAR10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 210,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "CARDIOGEN",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 210
+  },
+  {
+    "id": "CAR20|20mg",
+    "product": "CAR20",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 420,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 420
+  },
+  {
+    "id": "Cardiogen|10mg",
+    "product": "Cardiogen",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 210
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "CAR10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 210
+  },
+  {
+    "id": "Cardiogen|20mg",
+    "product": "Cardiogen",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 310,
+      "价格表": null,
+      "Direct Factory": 360
+    },
+    "codes": {
+      "Viv": "CARDIOGEN",
+      "价格表": "",
+      "Direct Factory": "CAR20"
+    },
+    "best_source": "Viv",
+    "best_price": 310
+  },
+  {
+    "id": "Cartalax|10mg",
+    "product": "Cartalax",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 230
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "CART10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 230
+  },
+  {
+    "id": "Cartalax|20mg",
+    "product": "Cartalax",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 240,
+      "价格表": null,
+      "Direct Factory": 390
+    },
+    "codes": {
+      "Viv": "CART20",
+      "价格表": "",
+      "Direct Factory": "CART20"
+    },
+    "best_source": "Viv",
+    "best_price": 240
+  },
+  {
+    "id": "Cerebrolysin|60mg",
+    "product": "Cerebrolysin",
+    "strength": "60mg",
+    "spec": "60mg*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "CBL60",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "CJC (no DAC) + Ipamorelin|10mg",
+    "product": "CJC (no DAC) + Ipamorelin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 360,
+      "Direct Factory": 137
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "CP10",
+      "Direct Factory": "CP10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 137
+  },
+  {
+    "id": "CJC-1295 (no DAC)|2mg",
+    "product": "CJC-1295 (no DAC)",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": null,
+      "Direct Factory": 50
+    },
+    "codes": {
+      "Viv": "CND2",
+      "价格表": "",
+      "Direct Factory": "CND2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 50
+  },
+  {
+    "id": "CJC-1295 (no DAC)|5mg",
+    "product": "CJC-1295 (no DAC)",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 120,
+      "价格表": 180,
+      "Direct Factory": 118
+    },
+    "codes": {
+      "Viv": "CND5",
+      "价格表": "CND5",
+      "Direct Factory": "CND5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 118
+  },
+  {
+    "id": "CJC-1295 (no DAC)|10mg",
+    "product": "CJC-1295 (no DAC)",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 270,
+      "价格表": 290,
+      "Direct Factory": 190
+    },
+    "codes": {
+      "Viv": "CND10",
+      "价格表": "CND10",
+      "Direct Factory": "CND10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 190
+  },
+  {
+    "id": "CJC-1295 (with DAC)|2mg",
+    "product": "CJC-1295 (with DAC)",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 220,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "CD2",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 220
+  },
+  {
+    "id": "CJC-1295 (with DAC)|5mg",
+    "product": "CJC-1295 (with DAC)",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 450,
+      "价格表": 350,
+      "Direct Factory": 182
+    },
+    "codes": {
+      "Viv": "CD5",
+      "价格表": "CD5",
+      "Direct Factory": "CD5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 182
+  },
+  {
+    "id": "CJC-1295 (with DAC)|10mg",
+    "product": "CJC-1295 (with DAC)",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 700,
+      "价格表": 630,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "CD10",
+      "价格表": "CD10",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 630
+  },
+  {
+    "id": "CJC1295(without DAC)5mg+IPA5mg|10mg",
+    "product": "CJC1295(without DAC)5mg+IPA5mg",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 210,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "CP10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 210
+  },
+  {
+    "id": "Cortagen|20mg",
+    "product": "Cortagen",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 195,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "CORTAGEN",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 195
+  },
+  {
+    "id": "CRY10|10mg",
+    "product": "CRY10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 190,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "CRYSTAGEN",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 190
+  },
+  {
+    "id": "CRY20|20mg",
+    "product": "CRY20",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 350,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 350
+  },
+  {
+    "id": "Crystagen|10mg",
+    "product": "Crystagen",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 190
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "CRY10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 190
+  },
+  {
+    "id": "Crystagen|20mg",
+    "product": "Crystagen",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 195,
+      "价格表": null,
+      "Direct Factory": 350
+    },
+    "codes": {
+      "Viv": "CRYSTAGEN",
+      "价格表": "",
+      "Direct Factory": "CRY20"
+    },
+    "best_source": "Viv",
+    "best_price": 195
+  },
+  {
+    "id": "Dermorphin|2mg",
+    "product": "Dermorphin",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 86
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "DR2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 86
+  },
+  {
+    "id": "Dermorphin|5mg",
+    "product": "Dermorphin",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 110,
+      "价格表": null,
+      "Direct Factory": 150
+    },
+    "codes": {
+      "Viv": "DR5",
+      "价格表": "",
+      "Direct Factory": "DR5"
+    },
+    "best_source": "Viv",
+    "best_price": 110
+  },
+  {
+    "id": "Dermorphin|10mg",
+    "product": "Dermorphin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 240
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "DR10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 240
+  },
+  {
+    "id": "Dermorphin|20mg",
+    "product": "Dermorphin",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 400
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "DR20"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 400
+  },
+  {
+    "id": "Dihexa|5mg",
+    "product": "Dihexa",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 95,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "DIHEXA5",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 95
+  },
+  {
+    "id": "Dihexa|10mg",
+    "product": "Dihexa",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 180,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "DIHEXA10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 180
+  },
+  {
+    "id": "DR10|10mg",
+    "product": "DR10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 240,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 240
+  },
+  {
+    "id": "DR2|2mg",
+    "product": "DR2",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 86,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "DERMORPHIN(DP)",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 86
+  },
+  {
+    "id": "DR20|20mg",
+    "product": "DR20",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 400,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 400
+  },
+  {
+    "id": "DR5|5mg",
+    "product": "DR5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 150,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 150
+  },
+  {
+    "id": "DSIP|2mg",
+    "product": "DSIP",
+    "strength": "2mg",
+    "spec": "2mg",
+    "prices": {
+      "Viv": null,
+      "价格表": 88,
+      "Direct Factory": 45
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "DS2",
+      "Direct Factory": "DS2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 45
+  },
+  {
+    "id": "DSIP|5mg",
+    "product": "DSIP",
+    "strength": "5mg",
+    "spec": "5mg",
+    "prices": {
+      "Viv": 80,
+      "价格表": 115,
+      "Direct Factory": 69
+    },
+    "codes": {
+      "Viv": "DS5",
+      "价格表": "DS5",
+      "Direct Factory": "DS5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 69
+  },
+  {
+    "id": "DSIP|10mg",
+    "product": "DSIP",
+    "strength": "10mg",
+    "spec": "10mg",
+    "prices": {
+      "Viv": 160,
+      "价格表": 155,
+      "Direct Factory": 125
+    },
+    "codes": {
+      "Viv": "DS10",
+      "价格表": "DS10",
+      "Direct Factory": "DS10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 125
+  },
+  {
+    "id": "DUL10|10mg",
+    "product": "DUL10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 620,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 620
+  },
+  {
+    "id": "DUL5|5mg",
+    "product": "DUL5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 380,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "DULAGLUTIDE",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 380
+  },
+  {
+    "id": "Dulaglutide|5mg",
+    "product": "Dulaglutide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 450,
+      "价格表": null,
+      "Direct Factory": 380
+    },
+    "codes": {
+      "Viv": "DULAGLUTIDE5",
+      "价格表": "",
+      "Direct Factory": "DUL5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 380
+  },
+  {
+    "id": "Dulaglutide|10mg",
+    "product": "Dulaglutide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 880,
+      "价格表": null,
+      "Direct Factory": 620
+    },
+    "codes": {
+      "Viv": "DULAGLUTIDE10",
+      "价格表": "",
+      "Direct Factory": "DUL10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 620
+  },
+  {
+    "id": "EP0|3000iu",
+    "product": "EP0",
+    "strength": "3000iu",
+    "spec": "3000iu",
+    "prices": {
+      "Viv": null,
+      "价格表": 180,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "EPO",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 180
+  },
+  {
+    "id": "Epitalon|10mg",
+    "product": "Epitalon",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": 165,
+      "Direct Factory": 77
+    },
+    "codes": {
+      "Viv": "ET10/EP10",
+      "价格表": "ET10",
+      "Direct Factory": "ET10"
+    },
+    "best_source": "Viv",
+    "best_price": 65
+  },
+  {
+    "id": "Epitalon|50mg",
+    "product": "Epitalon",
+    "strength": "50mg",
+    "spec": "50mg*10vials",
+    "prices": {
+      "Viv": 330,
+      "价格表": 540,
+      "Direct Factory": 290
+    },
+    "codes": {
+      "Viv": "ET50/EP50",
+      "价格表": "ET50",
+      "Direct Factory": "ET50"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 290
+  },
+  {
+    "id": "EPO|3000iu",
+    "product": "EPO",
+    "strength": "3000iu",
+    "spec": "3000iu",
+    "prices": {
+      "Viv": 120,
+      "价格表": null,
+      "Direct Factory": 180
+    },
+    "codes": {
+      "Viv": "EPO",
+      "价格表": "",
+      "Direct Factory": "EP0"
+    },
+    "best_source": "Viv",
+    "best_price": 120
+  },
+  {
+    "id": "FM2|2mg",
+    "product": "FM2",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 70,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "MGF",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 70
+  },
+  {
+    "id": "FMP2|2mg",
+    "product": "FMP2",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 122,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "PEG MGF",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 122
+  },
+  {
+    "id": "FN1|1mg",
+    "product": "FN1",
+    "strength": "1mg",
+    "spec": "1mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 350,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "FOLLISTATIN",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 350
+  },
+  {
+    "id": "Follistatin|1mg",
+    "product": "Follistatin",
+    "strength": "1mg",
+    "spec": "1mg*10vials",
+    "prices": {
+      "Viv": 750,
+      "价格表": null,
+      "Direct Factory": 350
+    },
+    "codes": {
+      "Viv": "FST-1/FST 344",
+      "价格表": "",
+      "Direct Factory": "FN1"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 350
+  },
+  {
+    "id": "FOXO4-DRI|2mg",
+    "product": "FOXO4-DRI",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 260,
+      "价格表": null,
+      "Direct Factory": 280
+    },
+    "codes": {
+      "Viv": "FOXO4",
+      "价格表": "",
+      "Direct Factory": "F42"
+    },
+    "best_source": "Viv",
+    "best_price": 260
+  },
+  {
+    "id": "FOXO4-DRI|5mg",
+    "product": "FOXO4-DRI",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 450
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "F45"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 450
+  },
+  {
+    "id": "FOXO4-DRI|10mg",
+    "product": "FOXO4-DRI",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": 810,
+      "Direct Factory": 760
+    },
+    "codes": {
+      "Viv": "F410",
+      "价格表": "F410",
+      "Direct Factory": "F410"
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "GHK-Cu|50mg",
+    "product": "GHK-Cu",
+    "strength": "50mg",
+    "spec": "50mg*10vials",
+    "prices": {
+      "Viv": 45,
+      "价格表": 55,
+      "Direct Factory": 80
+    },
+    "codes": {
+      "Viv": "CU50",
+      "价格表": "CU50",
+      "Direct Factory": "CU50"
+    },
+    "best_source": "Viv",
+    "best_price": 45
+  },
+  {
+    "id": "GHK-Cu|100mg",
+    "product": "GHK-Cu",
+    "strength": "100mg",
+    "spec": "100mg*10vials",
+    "prices": {
+      "Viv": 50,
+      "价格表": 70,
+      "Direct Factory": 120
+    },
+    "codes": {
+      "Viv": "CU100",
+      "价格表": "CU100",
+      "Direct Factory": "CU100"
+    },
+    "best_source": "Viv",
+    "best_price": 50
+  },
+  {
+    "id": "GHRP-2|5mg",
+    "product": "GHRP-2",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 50,
+      "价格表": 112,
+      "Direct Factory": 40
+    },
+    "codes": {
+      "Viv": "G25",
+      "价格表": "G25",
+      "Direct Factory": "G25"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 40
+  },
+  {
+    "id": "GHRP-2|10mg",
+    "product": "GHRP-2",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 60,
+      "价格表": 155,
+      "Direct Factory": 70
+    },
+    "codes": {
+      "Viv": "G210",
+      "价格表": "G210",
+      "Direct Factory": "G210"
+    },
+    "best_source": "Viv",
+    "best_price": 60
+  },
+  {
+    "id": "GHRP-6|5mg",
+    "product": "GHRP-6",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 50,
+      "价格表": 112,
+      "Direct Factory": 45
+    },
+    "codes": {
+      "Viv": "G65",
+      "价格表": "G65",
+      "Direct Factory": "G65"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 45
+  },
+  {
+    "id": "GHRP-6|10mg",
+    "product": "GHRP-6",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 70,
+      "价格表": 155,
+      "Direct Factory": 50
+    },
+    "codes": {
+      "Viv": "G610",
+      "价格表": "G610",
+      "Direct Factory": "G610"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 50
+  },
+  {
+    "id": "Glow (BPC+TB+GHK)|70mg",
+    "product": "Glow (BPC+TB+GHK)",
+    "strength": "70mg",
+    "spec": "70mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 320,
+      "Direct Factory": 185
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "GLOW70",
+      "Direct Factory": "GLOW70"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 185
+  },
+  {
+    "id": "Glow(TB10mg+BPC-15710mg+GHK50mg)|70mg",
+    "product": "Glow(TB10mg+BPC-15710mg+GHK50mg)",
+    "strength": "70mg",
+    "spec": "70mg*10vials",
+    "prices": {
+      "Viv": 500,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "BBG70",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 500
+  },
+  {
+    "id": "Glow70(BPC157 10mg+GHK-CU50mg+TB500 10mg)|70mg",
+    "product": "Glow70(BPC157 10mg+GHK-CU50mg+TB500 10mg)",
+    "strength": "70mg",
+    "spec": "70mg*10vials",
+    "prices": {
+      "Viv": 460,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "GLOW70",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 460
+  },
+  {
+    "id": "Glutathione|400mg",
+    "product": "Glutathione",
+    "strength": "400mg",
+    "spec": "400mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 80
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "GTT4"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 80
+  },
+  {
+    "id": "Glutathione|600mg",
+    "product": "Glutathione",
+    "strength": "600mg",
+    "spec": "600mg*10vials",
+    "prices": {
+      "Viv": 35,
+      "价格表": null,
+      "Direct Factory": 105
+    },
+    "codes": {
+      "Viv": "GTT600",
+      "价格表": "",
+      "Direct Factory": "GTT6"
+    },
+    "best_source": "Viv",
+    "best_price": 35
+  },
+  {
+    "id": "Glutathione|1000mg",
+    "product": "Glutathione",
+    "strength": "1000mg",
+    "spec": "1000mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 185,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "GTT",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 185
+  },
+  {
+    "id": "Glutathione|1500mg",
+    "product": "Glutathione",
+    "strength": "1500mg",
+    "spec": "1500mg*10vials",
+    "prices": {
+      "Viv": 55,
+      "价格表": 245,
+      "Direct Factory": 200
+    },
+    "codes": {
+      "Viv": "GTT1500",
+      "价格表": "",
+      "Direct Factory": "GTT15"
+    },
+    "best_source": "Viv",
+    "best_price": 55
+  },
+  {
+    "id": "H10|10iu",
+    "product": "H10",
+    "strength": "10iu",
+    "spec": "10iu*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 96,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 96
+  },
+  {
+    "id": "H15|15iu",
+    "product": "H15",
+    "strength": "15iu",
+    "spec": "15iu* 10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 127,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 127
+  },
+  {
+    "id": "H36|36iu",
+    "product": "H36",
+    "strength": "36iu",
+    "spec": "36iu* 10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 280,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 280
+  },
+  {
+    "id": "H40|40iu",
+    "product": "H40",
+    "strength": "40iu",
+    "spec": "40iu* 10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 350,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 350
+  },
+  {
+    "id": "H8|8iu",
+    "product": "H8",
+    "strength": "8iu",
+    "spec": "8iu*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 78,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "HGH 191AA (SOMATROPIN)",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 78
+  },
+  {
+    "id": "HCG|1000iu",
+    "product": "HCG",
+    "strength": "1000iu",
+    "spec": "1000iu*10vials",
+    "prices": {
+      "Viv": 40,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "G1K",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 40
+  },
+  {
+    "id": "HCG|2000iu",
+    "product": "HCG",
+    "strength": "2000iu",
+    "spec": "2000iu*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "G2K",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 65
+  },
+  {
+    "id": "HCG|5000iu",
+    "product": "HCG",
+    "strength": "5000iu",
+    "spec": "5000IU*10vials",
+    "prices": {
+      "Viv": 150,
+      "价格表": 140,
+      "Direct Factory": 125
+    },
+    "codes": {
+      "Viv": "G5K",
+      "价格表": "G5K",
+      "Direct Factory": "G5K"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 125
+  },
+  {
+    "id": "HCG|10000iu",
+    "product": "HCG",
+    "strength": "10000iu",
+    "spec": "10000IU*10vials",
+    "prices": {
+      "Viv": 260,
+      "价格表": 210,
+      "Direct Factory": 198
+    },
+    "codes": {
+      "Viv": "G10K",
+      "价格表": "G10K",
+      "Direct Factory": "G10K"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 198
+  },
+  {
+    "id": "Hexarelin|2mg",
+    "product": "Hexarelin",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 70,
+      "价格表": null,
+      "Direct Factory": 67
+    },
+    "codes": {
+      "Viv": "HX2",
+      "价格表": "",
+      "Direct Factory": "HX2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 67
+  },
+  {
+    "id": "Hexarelin|5mg",
+    "product": "Hexarelin",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 150,
+      "价格表": null,
+      "Direct Factory": 125
+    },
+    "codes": {
+      "Viv": "HX5",
+      "价格表": "",
+      "Direct Factory": "HX5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 125
+  },
+  {
+    "id": "HGH 191AA|8iu",
+    "product": "HGH 191AA",
+    "strength": "8iu",
+    "spec": "8iu*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 78
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "HGH"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 78
+  },
+  {
+    "id": "HGH 191AA|10iu",
+    "product": "HGH 191AA",
+    "strength": "10iu",
+    "spec": "10iu*10vials",
+    "prices": {
+      "Viv": 75,
+      "价格表": null,
+      "Direct Factory": 96
+    },
+    "codes": {
+      "Viv": "H10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 75
+  },
+  {
+    "id": "HGH 191AA|12iu",
+    "product": "HGH 191AA",
+    "strength": "12iu",
+    "spec": "12iu*10vials",
+    "prices": {
+      "Viv": 110,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "H12",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 110
+  },
+  {
+    "id": "HGH 191AA|15iu",
+    "product": "HGH 191AA",
+    "strength": "15iu",
+    "spec": "15iu* 10vials",
+    "prices": {
+      "Viv": 160,
+      "价格表": null,
+      "Direct Factory": 127
+    },
+    "codes": {
+      "Viv": "H15",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Direct Factory",
+    "best_price": 127
+  },
+  {
+    "id": "HGH 191AA|24iu",
+    "product": "HGH 191AA",
+    "strength": "24iu",
+    "spec": "24iu*10vials",
+    "prices": {
+      "Viv": 230,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "H24",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 230
+  },
+  {
+    "id": "HGH 191AA|36iu",
+    "product": "HGH 191AA",
+    "strength": "36iu",
+    "spec": "36iu*10vials",
+    "prices": {
+      "Viv": 320,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "H36",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 320
+  },
+  {
+    "id": "HGH Frag 176-191|2mg",
+    "product": "HGH Frag 176-191",
+    "strength": "2mg",
+    "spec": "2mg *10 vials",
+    "prices": {
+      "Viv": 88,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "FR2/FRAG2",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 88
+  },
+  {
+    "id": "HGH Frag 176-191|5mg",
+    "product": "HGH Frag 176-191",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 168,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "FR5/FRAG5",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 168
+  },
+  {
+    "id": "HGH Frag 176-191|10mg",
+    "product": "HGH Frag 176-191",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 288,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "FR10/FRAG10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 288
+  },
+  {
+    "id": "HGH Frag 176-191|12mg",
+    "product": "HGH Frag 176-191",
+    "strength": "12mg",
+    "spec": "12mg *10 vials",
+    "prices": {
+      "Viv": 320,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "FR12/FRAG12",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 320
+  },
+  {
+    "id": "HGH Frag 176-191|15mg",
+    "product": "HGH Frag 176-191",
+    "strength": "15mg",
+    "spec": "15mg *10 vials",
+    "prices": {
+      "Viv": 480,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "FR15/FRAG15",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 480
+  },
+  {
+    "id": "HMG|75iu",
+    "product": "HMG",
+    "strength": "75iu",
+    "spec": "75iu*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "G75",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "HUM10|10mg",
+    "product": "HUM10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 890,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "HUMANIN",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 890
+  },
+  {
+    "id": "Humanin|10mg",
+    "product": "Humanin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 480,
+      "价格表": null,
+      "Direct Factory": 890
+    },
+    "codes": {
+      "Viv": "HU/HMN10",
+      "价格表": "",
+      "Direct Factory": "HUM10"
+    },
+    "best_source": "Viv",
+    "best_price": 480
+  },
+  {
+    "id": "HX2|2mg",
+    "product": "HX2",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 67,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "HEXARELIN ACETATE",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 67
+  },
+  {
+    "id": "HX5|5mg",
+    "product": "HX5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 125,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 125
+  },
+  {
+    "id": "IGD|2mg",
+    "product": "IGD",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 92,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "IGF-DES",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 92
+  },
+  {
+    "id": "IGF-1 LR3|0.1mg",
+    "product": "IGF-1 LR3",
+    "strength": "0.1mg",
+    "spec": "0.1mg*10vials",
+    "prices": {
+      "Viv": 60,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "IG01",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 60
+  },
+  {
+    "id": "IGF-1 LR3|1mg",
+    "product": "IGF-1 LR3",
+    "strength": "1mg",
+    "spec": "1mg*10vials",
+    "prices": {
+      "Viv": 500,
+      "价格表": 370,
+      "Direct Factory": 246
+    },
+    "codes": {
+      "Viv": "IG1",
+      "价格表": "IG1",
+      "Direct Factory": "IG1"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 246
+  },
+  {
+    "id": "IGF-DES|2mg",
+    "product": "IGF-DES",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 104,
+      "价格表": null,
+      "Direct Factory": 92
+    },
+    "codes": {
+      "Viv": "IGD",
+      "价格表": "",
+      "Direct Factory": "IGD"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 92
+  },
+  {
+    "id": "IP10|10mg",
+    "product": "IP10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 130,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 130
+  },
+  {
+    "id": "IP2|2mg",
+    "product": "IP2",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 56,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "IPAMORELIN",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 56
+  },
+  {
+    "id": "IP5|5mg",
+    "product": "IP5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 70,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 70
+  },
+  {
+    "id": "Ipamorelin|2mg",
+    "product": "Ipamorelin",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 40,
+      "价格表": null,
+      "Direct Factory": 56
+    },
+    "codes": {
+      "Viv": "IP2",
+      "价格表": "",
+      "Direct Factory": "IP2"
+    },
+    "best_source": "Viv",
+    "best_price": 40
+  },
+  {
+    "id": "Ipamorelin|5mg",
+    "product": "Ipamorelin",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 55,
+      "价格表": 105,
+      "Direct Factory": 70
+    },
+    "codes": {
+      "Viv": "IP5",
+      "价格表": "IP5",
+      "Direct Factory": "IP5"
+    },
+    "best_source": "Viv",
+    "best_price": 55
+  },
+  {
+    "id": "Ipamorelin|10mg",
+    "product": "Ipamorelin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": 140,
+      "Direct Factory": 120
+    },
+    "codes": {
+      "Viv": "IP10",
+      "价格表": "IP10",
+      "Direct Factory": "IP10"
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "Kisspeptin-10|5mg",
+    "product": "Kisspeptin-10",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": 125,
+      "Direct Factory": 87
+    },
+    "codes": {
+      "Viv": "KS5",
+      "价格表": "KS5",
+      "Direct Factory": "KS5"
+    },
+    "best_source": "Viv",
+    "best_price": 65
+  },
+  {
+    "id": "Kisspeptin-10|10mg",
+    "product": "Kisspeptin-10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 130,
+      "价格表": 175,
+      "Direct Factory": 139
+    },
+    "codes": {
+      "Viv": "KS10",
+      "价格表": "KS10",
+      "Direct Factory": "KS10"
+    },
+    "best_source": "Viv",
+    "best_price": 130
+  },
+  {
+    "id": "KK37|5mg",
+    "product": "KK37",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 220,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "375",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 220
+  },
+  {
+    "id": "KLOW (BPC+TB+GHK+KPV)|80mg",
+    "product": "KLOW (BPC+TB+GHK+KPV)",
+    "strength": "80mg",
+    "spec": "80mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 410,
+      "Direct Factory": 225
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "KLOW80",
+      "Direct Factory": "KLOW80"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 225
+  },
+  {
+    "id": "KPV|5mg",
+    "product": "KPV",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": 105,
+      "Direct Factory": 75
+    },
+    "codes": {
+      "Viv": "KPV5",
+      "价格表": "KPV5",
+      "Direct Factory": "KPV5"
+    },
+    "best_source": "Viv",
+    "best_price": 65
+  },
+  {
+    "id": "KPV|10mg",
+    "product": "KPV",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": 140,
+      "Direct Factory": 120
+    },
+    "codes": {
+      "Viv": "KPV10/KP10",
+      "价格表": "KPV10",
+      "Direct Factory": "KPV10"
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "L-Carnitine|10ml",
+    "product": "L-Carnitine",
+    "strength": "10ml",
+    "spec": "10ml*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "LC600",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "Lemon Bottle|10ml",
+    "product": "Lemon Bottle",
+    "strength": "10ml",
+    "spec": "10ml*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "LB",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "Lipo-C|10ml",
+    "product": "Lipo-C",
+    "strength": "10ml",
+    "spec": "10ml*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": 130,
+      "Direct Factory": 110
+    },
+    "codes": {
+      "Viv": "LC120",
+      "价格表": "LC216",
+      "Direct Factory": "LC216"
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "LIR10|10mg",
+    "product": "LIR10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 480,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 480
+  },
+  {
+    "id": "LIR30|20mg",
+    "product": "LIR30",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 890,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 890
+  },
+  {
+    "id": "LIR5|5mg",
+    "product": "LIR5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 270,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "LIRAGLUTIDE",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 270
+  },
+  {
+    "id": "Liraglutide|5mg",
+    "product": "Liraglutide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 160,
+      "价格表": 360,
+      "Direct Factory": 270
+    },
+    "codes": {
+      "Viv": "LIRAG5",
+      "价格表": "LIR5",
+      "Direct Factory": "LIR5"
+    },
+    "best_source": "Viv",
+    "best_price": 160
+  },
+  {
+    "id": "Liraglutide|10mg",
+    "product": "Liraglutide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 280,
+      "价格表": 645,
+      "Direct Factory": 480
+    },
+    "codes": {
+      "Viv": "LIRAG10",
+      "价格表": "LIR10",
+      "Direct Factory": "LIR10"
+    },
+    "best_source": "Viv",
+    "best_price": 280
+  },
+  {
+    "id": "Liraglutide|20mg",
+    "product": "Liraglutide",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 1220,
+      "Direct Factory": 890
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "LIR30",
+      "Direct Factory": "LIR30"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 890
+  },
+  {
+    "id": "Liraglutide|30mg",
+    "product": "Liraglutide",
+    "strength": "30mg",
+    "spec": "30mg*10vials",
+    "prices": {
+      "Viv": 780,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "LIRAG30",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 780
+  },
+  {
+    "id": "Livagen|20mg",
+    "product": "Livagen",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 300,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "AEDK20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 300
+  },
+  {
+    "id": "LL-37|5mg",
+    "product": "LL-37",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 210,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "375",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 210
+  },
+  {
+    "id": "Matrixyl|10mg",
+    "product": "Matrixyl",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 72,
+      "价格表": 110,
+      "Direct Factory": 98
+    },
+    "codes": {
+      "Viv": "MX10",
+      "价格表": "MAT10",
+      "Direct Factory": "MAT10"
+    },
+    "best_source": "Viv",
+    "best_price": 72
+  },
+  {
+    "id": "Mazdutide|5mg",
+    "product": "Mazdutide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 255,
+      "价格表": 202,
+      "Direct Factory": 232
+    },
+    "codes": {
+      "Viv": "MDT5/MZ5",
+      "价格表": "MDT5",
+      "Direct Factory": "MDT5"
+    },
+    "best_source": "价格表",
+    "best_price": 202
+  },
+  {
+    "id": "Mazdutide|10mg",
+    "product": "Mazdutide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 500,
+      "价格表": 335,
+      "Direct Factory": 245
+    },
+    "codes": {
+      "Viv": "MDT10/MZ10",
+      "价格表": "MDT10",
+      "Direct Factory": "MDT10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 245
+  },
+  {
+    "id": "Melanotan-1|10mg",
+    "product": "Melanotan-1",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": 158,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "MT1",
+      "价格表": "ML10",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "Melanotan-2|10mg",
+    "product": "Melanotan-2",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": 176,
+      "Direct Factory": 140
+    },
+    "codes": {
+      "Viv": "MT2/ML10",
+      "价格表": "ML10",
+      "Direct Factory": "ML10"
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "Melatonin|10mg",
+    "product": "Melatonin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 112,
+      "价格表": null,
+      "Direct Factory": 160
+    },
+    "codes": {
+      "Viv": "MTN10/MT10",
+      "价格表": "",
+      "Direct Factory": "MT10"
+    },
+    "best_source": "Viv",
+    "best_price": 112
+  },
+  {
+    "id": "MGF|2mg",
+    "product": "MGF",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": null,
+      "Direct Factory": 70
+    },
+    "codes": {
+      "Viv": "FM2",
+      "价格表": "",
+      "Direct Factory": "FM2"
+    },
+    "best_source": "Viv",
+    "best_price": 65
+  },
+  {
+    "id": "MIC (Lipo-C + B12)|10mg",
+    "product": "MIC (Lipo-C + B12)",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 360,
+      "Direct Factory": 360
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "MIC(LIPO C WITH B12)",
+      "Direct Factory": "MIC10"
+    },
+    "best_source": "价格表",
+    "best_price": 360
+  },
+  {
+    "id": "MK677|5mg",
+    "product": "MK677",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 22,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "MK75",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 22
+  },
+  {
+    "id": "MOTS-c|10mg",
+    "product": "MOTS-c",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 130,
+      "价格表": 170,
+      "Direct Factory": 98
+    },
+    "codes": {
+      "Viv": "MS10",
+      "价格表": "MS10",
+      "Direct Factory": "MS10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 98
+  },
+  {
+    "id": "MOTS-c|20mg",
+    "product": "MOTS-c",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 230,
+      "价格表": 265,
+      "Direct Factory": 135
+    },
+    "codes": {
+      "Viv": "MS20",
+      "价格表": "MS20",
+      "Direct Factory": "MS20"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 135
+  },
+  {
+    "id": "MOTS-c|40mg",
+    "product": "MOTS-c",
+    "strength": "40mg",
+    "spec": "40mg*10vials",
+    "prices": {
+      "Viv": 430,
+      "价格表": 470,
+      "Direct Factory": 238
+    },
+    "codes": {
+      "Viv": "MS40",
+      "价格表": "MS40",
+      "Direct Factory": "MS40"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 238
+  },
+  {
+    "id": "NAD+|2mg",
+    "product": "NAD+",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 50,
+      "价格表": 90,
+      "Direct Factory": 67
+    },
+    "codes": {
+      "Viv": "GND2",
+      "价格表": "GND2",
+      "Direct Factory": "GND2"
+    },
+    "best_source": "Viv",
+    "best_price": 50
+  },
+  {
+    "id": "NAD+|5mg",
+    "product": "NAD+",
+    "strength": "5mg",
+    "spec": "5mg *10 vials",
+    "prices": {
+      "Viv": 70,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "GND5",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 70
+  },
+  {
+    "id": "NAD+|100mg",
+    "product": "NAD+",
+    "strength": "100mg",
+    "spec": "100mg*10vials",
+    "prices": {
+      "Viv": 50,
+      "价格表": 93,
+      "Direct Factory": 120
+    },
+    "codes": {
+      "Viv": "NJ100",
+      "价格表": "NJ100",
+      "Direct Factory": "NJ100"
+    },
+    "best_source": "Viv",
+    "best_price": 50
+  },
+  {
+    "id": "NAD+|500mg",
+    "product": "NAD+",
+    "strength": "500mg",
+    "spec": "500mg*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": 185,
+      "Direct Factory": 290
+    },
+    "codes": {
+      "Viv": "NJ500",
+      "价格表": "NJ500",
+      "Direct Factory": "NJ500"
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "NAD+|1000mg",
+    "product": "NAD+",
+    "strength": "1000mg",
+    "spec": "1000mg*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": 300,
+      "Direct Factory": 320
+    },
+    "codes": {
+      "Viv": "NJ1000",
+      "价格表": "NJ1000",
+      "Direct Factory": "NJ1000"
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "NP810|10mg",
+    "product": "NP810",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 180,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "SNAP8",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 180
+  },
+  {
+    "id": "NP8100|100mg",
+    "product": "NP8100",
+    "strength": "100mg",
+    "spec": "100mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 800,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 800
+  },
+  {
+    "id": "Oxytocin|2mg",
+    "product": "Oxytocin",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 25,
+      "价格表": 90,
+      "Direct Factory": 86
+    },
+    "codes": {
+      "Viv": "OT2",
+      "价格表": "OT2",
+      "Direct Factory": "OT2"
+    },
+    "best_source": "Viv",
+    "best_price": 25
+  },
+  {
+    "id": "Oxytocin|5mg",
+    "product": "Oxytocin",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 65,
+      "价格表": 120,
+      "Direct Factory": 150
+    },
+    "codes": {
+      "Viv": "OT5",
+      "价格表": "OT5",
+      "Direct Factory": "OT5"
+    },
+    "best_source": "Viv",
+    "best_price": 65
+  },
+  {
+    "id": "Oxytocin|10mg",
+    "product": "Oxytocin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 165,
+      "Direct Factory": 280
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "OT10",
+      "Direct Factory": "OT10"
+    },
+    "best_source": "价格表",
+    "best_price": 165
+  },
+  {
+    "id": "P21 (P021)|5mg",
+    "product": "P21 (P021)",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 33,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "P021",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 33
+  },
+  {
+    "id": "Pancragen|20mg",
+    "product": "Pancragen",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 450,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "KEDW20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 450
+  },
+  {
+    "id": "PE-22-28|5mg",
+    "product": "PE-22-28",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 85,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "PE5",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 85
+  },
+  {
+    "id": "PE-22-28|10mg",
+    "product": "PE-22-28",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 140,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "PE10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 140
+  },
+  {
+    "id": "PEG-MGF|2mg",
+    "product": "PEG-MGF",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 200,
+      "价格表": null,
+      "Direct Factory": 122
+    },
+    "codes": {
+      "Viv": "FMP2",
+      "价格表": "",
+      "Direct Factory": "FMP2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 122
+  },
+  {
+    "id": "PIN10|10mg",
+    "product": "PIN10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 150,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 150
+  },
+  {
+    "id": "PIN5|5mg",
+    "product": "PIN5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 90,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "PINEALON(PIN)",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 90
+  },
+  {
+    "id": "Pinealon|5mg",
+    "product": "Pinealon",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 110,
+      "价格表": null,
+      "Direct Factory": 90
+    },
+    "codes": {
+      "Viv": "PN/PI5",
+      "价格表": "",
+      "Direct Factory": "PIN5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 90
+  },
+  {
+    "id": "Pinealon|10mg",
+    "product": "Pinealon",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 180,
+      "价格表": null,
+      "Direct Factory": 150
+    },
+    "codes": {
+      "Viv": "PN10/PI10",
+      "价格表": "",
+      "Direct Factory": "PIN10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 150
+  },
+  {
+    "id": "Pinealon|20mg",
+    "product": "Pinealon",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 340,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "PN20/PI20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 340
+  },
+  {
+    "id": "PN5|5mg",
+    "product": "PN5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 350,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "PNC-27",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 350
+  },
+  {
+    "id": "PNC-27|2ml",
+    "product": "PNC-27",
+    "strength": "2ml",
+    "spec": "2ml*10vials",
+    "prices": {
+      "Viv": 168,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "PNC2",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 168
+  },
+  {
+    "id": "PNC-27|5ml",
+    "product": "PNC-27",
+    "strength": "5ml",
+    "spec": "5ml*10vials",
+    "prices": {
+      "Viv": 370,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "PNC5",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 370
+  },
+  {
+    "id": "PNC-27|5mg",
+    "product": "PNC-27",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 350
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "PN5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 350
+  },
+  {
+    "id": "PNC-27|10ml",
+    "product": "PNC-27",
+    "strength": "10ml",
+    "spec": "10ml*10vials",
+    "prices": {
+      "Viv": 620,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "PNC10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 620
+  },
+  {
+    "id": "Porstamax|20mg",
+    "product": "Porstamax",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 620,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "KEDP20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 620
+  },
+  {
+    "id": "PT-141|10mg",
+    "product": "PT-141",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 130,
+      "价格表": 170,
+      "Direct Factory": 86
+    },
+    "codes": {
+      "Viv": "P41",
+      "价格表": "P41",
+      "Direct Factory": "P41"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 86
+  },
+  {
+    "id": "Retatrutide|5mg",
+    "product": "Retatrutide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 75,
+      "价格表": null,
+      "Direct Factory": 80
+    },
+    "codes": {
+      "Viv": "RT5",
+      "价格表": "",
+      "Direct Factory": "RT5"
+    },
+    "best_source": "Viv",
+    "best_price": 75
+  },
+  {
+    "id": "Retatrutide|10mg",
+    "product": "Retatrutide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 140,
+      "价格表": 139,
+      "Direct Factory": 125
+    },
+    "codes": {
+      "Viv": "RT10",
+      "价格表": "RT10",
+      "Direct Factory": "RT10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 125
+  },
+  {
+    "id": "Retatrutide|15mg",
+    "product": "Retatrutide",
+    "strength": "15mg",
+    "spec": "15mg*10vials",
+    "prices": {
+      "Viv": 200,
+      "价格表": 174,
+      "Direct Factory": 200
+    },
+    "codes": {
+      "Viv": "RT15",
+      "价格表": "RT15",
+      "Direct Factory": "RT15"
+    },
+    "best_source": "价格表",
+    "best_price": 174
+  },
+  {
+    "id": "Retatrutide|20mg",
+    "product": "Retatrutide",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 255,
+      "价格表": 208,
+      "Direct Factory": 265
+    },
+    "codes": {
+      "Viv": "RT20",
+      "价格表": "RT20",
+      "Direct Factory": "RT20"
+    },
+    "best_source": "价格表",
+    "best_price": 208
+  },
+  {
+    "id": "Retatrutide|30mg",
+    "product": "Retatrutide",
+    "strength": "30mg",
+    "spec": "30mg*10vials",
+    "prices": {
+      "Viv": 360,
+      "价格表": 277,
+      "Direct Factory": 330
+    },
+    "codes": {
+      "Viv": "RT30",
+      "价格表": "RT30",
+      "Direct Factory": "RT30"
+    },
+    "best_source": "价格表",
+    "best_price": 277
+  },
+  {
+    "id": "Retatrutide|40mg",
+    "product": "Retatrutide",
+    "strength": "40mg",
+    "spec": "40mg*10vials",
+    "prices": {
+      "Viv": 460,
+      "价格表": 346,
+      "Direct Factory": 450
+    },
+    "codes": {
+      "Viv": "RT40",
+      "价格表": "RT40",
+      "Direct Factory": "RT40"
+    },
+    "best_source": "价格表",
+    "best_price": 346
+  },
+  {
+    "id": "Retatrutide|50mg",
+    "product": "Retatrutide",
+    "strength": "50mg",
+    "spec": "50mg*10vials",
+    "prices": {
+      "Viv": 550,
+      "价格表": 415,
+      "Direct Factory": 570
+    },
+    "codes": {
+      "Viv": "RT50",
+      "价格表": "RT50",
+      "Direct Factory": "RT50"
+    },
+    "best_source": "价格表",
+    "best_price": 415
+  },
+  {
+    "id": "Retatrutide|60mg",
+    "product": "Retatrutide",
+    "strength": "60mg",
+    "spec": "60mg*10vials",
+    "prices": {
+      "Viv": 630,
+      "价格表": 484,
+      "Direct Factory": 690
+    },
+    "codes": {
+      "Viv": "RT60",
+      "价格表": "RT60",
+      "Direct Factory": "RT60"
+    },
+    "best_source": "价格表",
+    "best_price": 484
+  },
+  {
+    "id": "Retatrutide|80mg",
+    "product": "Retatrutide",
+    "strength": "80mg",
+    "spec": "80mg*10vials",
+    "prices": {
+      "Viv": 780,
+      "价格表": 622,
+      "Direct Factory": 840
+    },
+    "codes": {
+      "Viv": "RT80",
+      "价格表": "RT80",
+      "Direct Factory": "RT80"
+    },
+    "best_source": "价格表",
+    "best_price": 622
+  },
+  {
+    "id": "Retatrutide|100mg",
+    "product": "Retatrutide",
+    "strength": "100mg",
+    "spec": "100mg*10vials",
+    "prices": {
+      "Viv": 940,
+      "价格表": 760,
+      "Direct Factory": 1080
+    },
+    "codes": {
+      "Viv": "RT100",
+      "价格表": "RT100",
+      "Direct Factory": "RT100"
+    },
+    "best_source": "价格表",
+    "best_price": 760
+  },
+  {
+    "id": "Selank|5mg",
+    "product": "Selank",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 60,
+      "价格表": 110,
+      "Direct Factory": 66
+    },
+    "codes": {
+      "Viv": "SK5",
+      "价格表": "SK5",
+      "Direct Factory": "SK5"
+    },
+    "best_source": "Viv",
+    "best_price": 60
+  },
+  {
+    "id": "Selank|10mg",
+    "product": "Selank",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 100,
+      "价格表": 150,
+      "Direct Factory": 110
+    },
+    "codes": {
+      "Viv": "SK10",
+      "价格表": "SK10",
+      "Direct Factory": "SK10"
+    },
+    "best_source": "Viv",
+    "best_price": 100
+  },
+  {
+    "id": "Selank|20mg",
+    "product": "Selank",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 270,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "XS20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 270
+  },
+  {
+    "id": "Semaglutide|5mg",
+    "product": "Semaglutide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 64,
+      "价格表": null,
+      "Direct Factory": 70
+    },
+    "codes": {
+      "Viv": "SM5",
+      "价格表": "",
+      "Direct Factory": "SM05"
+    },
+    "best_source": "Viv",
+    "best_price": 64
+  },
+  {
+    "id": "Semaglutide|10mg",
+    "product": "Semaglutide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 96,
+      "价格表": 113,
+      "Direct Factory": 100
+    },
+    "codes": {
+      "Viv": "SM10",
+      "价格表": "SM10",
+      "Direct Factory": "SM10"
+    },
+    "best_source": "Viv",
+    "best_price": 96
+  },
+  {
+    "id": "Semaglutide|15mg",
+    "product": "Semaglutide",
+    "strength": "15mg",
+    "spec": "15mg*10vials",
+    "prices": {
+      "Viv": 120,
+      "价格表": 134,
+      "Direct Factory": 130
+    },
+    "codes": {
+      "Viv": "SM15",
+      "价格表": "SM15",
+      "Direct Factory": "SM15"
+    },
+    "best_source": "Viv",
+    "best_price": 120
+  },
+  {
+    "id": "Semaglutide|20mg",
+    "product": "Semaglutide",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 144,
+      "价格表": 155,
+      "Direct Factory": 180
+    },
+    "codes": {
+      "Viv": "SM20",
+      "价格表": "SM20",
+      "Direct Factory": "SM20"
+    },
+    "best_source": "Viv",
+    "best_price": 144
+  },
+  {
+    "id": "Semaglutide|30mg",
+    "product": "Semaglutide",
+    "strength": "30mg",
+    "spec": "30mg *10vials",
+    "prices": {
+      "Viv": 208,
+      "价格表": 198,
+      "Direct Factory": 230
+    },
+    "codes": {
+      "Viv": "SM30",
+      "价格表": "SM30",
+      "Direct Factory": "SM30"
+    },
+    "best_source": "价格表",
+    "best_price": 198
+  },
+  {
+    "id": "Semaglutide|40mg",
+    "product": "Semaglutide",
+    "strength": "40mg",
+    "spec": "40mg *10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 240,
+      "Direct Factory": 310
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "SM40",
+      "Direct Factory": "SM40"
+    },
+    "best_source": "价格表",
+    "best_price": 240
+  },
+  {
+    "id": "Semaglutide|50mg",
+    "product": "Semaglutide",
+    "strength": "50mg",
+    "spec": "50mg *10vials",
+    "prices": {
+      "Viv": 340,
+      "价格表": 283,
+      "Direct Factory": 410
+    },
+    "codes": {
+      "Viv": "SM50",
+      "价格表": "SM50",
+      "Direct Factory": "SM50"
+    },
+    "best_source": "价格表",
+    "best_price": 283
+  },
+  {
+    "id": "Semax|5mg",
+    "product": "Semax",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 55,
+      "价格表": 110,
+      "Direct Factory": 63
+    },
+    "codes": {
+      "Viv": "SX5/XA5",
+      "价格表": "XA5",
+      "Direct Factory": "XA5"
+    },
+    "best_source": "Viv",
+    "best_price": 55
+  },
+  {
+    "id": "Semax|10mg",
+    "product": "Semax",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 90,
+      "价格表": 145,
+      "Direct Factory": 110
+    },
+    "codes": {
+      "Viv": "SX10/XA10",
+      "价格表": "XA10",
+      "Direct Factory": "XA10"
+    },
+    "best_source": "Viv",
+    "best_price": 90
+  },
+  {
+    "id": "Sermorelin|2mg",
+    "product": "Sermorelin",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 150
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "SMO-2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 150
+  },
+  {
+    "id": "Sermorelin|5mg",
+    "product": "Sermorelin",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 140,
+      "价格表": 205,
+      "Direct Factory": 108
+    },
+    "codes": {
+      "Viv": "SMO5",
+      "价格表": "SMO5",
+      "Direct Factory": "SMO5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 108
+  },
+  {
+    "id": "Sermorelin|10mg",
+    "product": "Sermorelin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 260,
+      "价格表": 335,
+      "Direct Factory": 143
+    },
+    "codes": {
+      "Viv": "SMO10",
+      "价格表": "SMO10",
+      "Direct Factory": "SMO10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 143
+  },
+  {
+    "id": "SLU-PP-322|5mg",
+    "product": "SLU-PP-322",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": 75,
+      "Direct Factory": 260
+    },
+    "codes": {
+      "Viv": "322",
+      "价格表": "SLU5",
+      "Direct Factory": "SLU5"
+    },
+    "best_source": "价格表",
+    "best_price": 75
+  },
+  {
+    "id": "SLU-PP-322|10mg",
+    "product": "SLU-PP-322",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 170,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "322",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 170
+  },
+  {
+    "id": "SMO10|10mg",
+    "product": "SMO10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 143,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 143
+  },
+  {
+    "id": "SMO5|5mg",
+    "product": "SMO5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 108,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "SERMORELIN",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 108
+  },
+  {
+    "id": "Snap-8|10mg",
+    "product": "Snap-8",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 50,
+      "价格表": null,
+      "Direct Factory": 160
+    },
+    "codes": {
+      "Viv": "NP810",
+      "价格表": "",
+      "Direct Factory": "NP810"
+    },
+    "best_source": "Viv",
+    "best_price": 50
+  },
+  {
+    "id": "Snap-8|100mg",
+    "product": "Snap-8",
+    "strength": "100mg",
+    "spec": "100mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 800
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "NP8100"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 800
+  },
+  {
+    "id": "SS-31|10mg",
+    "product": "SS-31",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 190,
+      "价格表": 165,
+      "Direct Factory": 120
+    },
+    "codes": {
+      "Viv": "2S10",
+      "价格表": "2S10",
+      "Direct Factory": "2S10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 120
+  },
+  {
+    "id": "SS-31|50mg",
+    "product": "SS-31",
+    "strength": "50mg",
+    "spec": "50mg*10vials",
+    "prices": {
+      "Viv": 850,
+      "价格表": 560,
+      "Direct Factory": 500
+    },
+    "codes": {
+      "Viv": "2S50",
+      "价格表": "2S50",
+      "Direct Factory": "2S50"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 500
+  },
+  {
+    "id": "SUR10|10mg",
+    "product": "SUR10",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 990,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 990
+  },
+  {
+    "id": "SUR2|2mg",
+    "product": "SUR2",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 320,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "SURVODUTIDE",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 320
+  },
+  {
+    "id": "SUR5|5mg",
+    "product": "SUR5",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 580,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 580
+  },
+  {
+    "id": "Survodutide|2mg",
+    "product": "Survodutide",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 320
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "SUR2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 320
+  },
+  {
+    "id": "Survodutide|5mg",
+    "product": "Survodutide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": null,
+      "Direct Factory": 580
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": "SUR5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 580
+  },
+  {
+    "id": "Survodutide|10mg",
+    "product": "Survodutide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 700,
+      "价格表": null,
+      "Direct Factory": 990
+    },
+    "codes": {
+      "Viv": "SUR10",
+      "价格表": "",
+      "Direct Factory": "SUR10"
+    },
+    "best_source": "Viv",
+    "best_price": 700
+  },
+  {
+    "id": "TB-500|2mg",
+    "product": "TB-500",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 80,
+      "价格表": null,
+      "Direct Factory": 95
+    },
+    "codes": {
+      "Viv": "BT2",
+      "价格表": "",
+      "Direct Factory": "TB2(BT)"
+    },
+    "best_source": "Viv",
+    "best_price": 80
+  },
+  {
+    "id": "TB-500|5mg",
+    "product": "TB-500",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 180,
+      "价格表": null,
+      "Direct Factory": 110
+    },
+    "codes": {
+      "Viv": "BT5",
+      "价格表": "",
+      "Direct Factory": "BT5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 110
+  },
+  {
+    "id": "TB-500|10mg",
+    "product": "TB-500",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 350,
+      "价格表": null,
+      "Direct Factory": 128
+    },
+    "codes": {
+      "Viv": "BT10",
+      "价格表": "",
+      "Direct Factory": "BB10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 128
+  },
+  {
+    "id": "TB-500 (Fragment)|5mg",
+    "product": "TB-500 (Fragment)",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 108,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "TB5",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 108
+  },
+  {
+    "id": "TB-500 (Fragment)|10mg",
+    "product": "TB-500 (Fragment)",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 145,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "TB10",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 145
+  },
+  {
+    "id": "TB-500 (Full)|5mg",
+    "product": "TB-500 (Full)",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 215,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "TB5",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 215
+  },
+  {
+    "id": "TB-500 (Full)|10mg",
+    "product": "TB-500 (Full)",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 335,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "TB10",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 335
+  },
+  {
+    "id": "Teriparatide|10mg",
+    "product": "Teriparatide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 500,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "TER10",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 500
+  },
+  {
+    "id": "Tesamorelin|2mg",
+    "product": "Tesamorelin",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": 95,
+      "价格表": 135,
+      "Direct Factory": 86
+    },
+    "codes": {
+      "Viv": "TSM2",
+      "价格表": "TSM2",
+      "Direct Factory": "TSM2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 86
+  },
+  {
+    "id": "Tesamorelin|5mg",
+    "product": "Tesamorelin",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 220,
+      "价格表": 235,
+      "Direct Factory": 138
+    },
+    "codes": {
+      "Viv": "TSM5",
+      "价格表": "TSM5",
+      "Direct Factory": "TSM5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 138
+  },
+  {
+    "id": "Tesamorelin|10mg",
+    "product": "Tesamorelin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 410,
+      "价格表": 400,
+      "Direct Factory": 235
+    },
+    "codes": {
+      "Viv": "TSM10",
+      "价格表": "TSM10",
+      "Direct Factory": "TSM10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 235
+  },
+  {
+    "id": "Tesamorelin|20mg",
+    "product": "Tesamorelin",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 750,
+      "价格表": 770,
+      "Direct Factory": 350
+    },
+    "codes": {
+      "Viv": "TSM20",
+      "价格表": "TSM20",
+      "Direct Factory": "TSM20"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 350
+  },
+  {
+    "id": "Testagen|20mg",
+    "product": "Testagen",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 200,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "AEDV20",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 200
+  },
+  {
+    "id": "Thymalin|10mg",
+    "product": "Thymalin",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 120,
+      "价格表": 280,
+      "Direct Factory": 92
+    },
+    "codes": {
+      "Viv": "TY10",
+      "价格表": "TY10",
+      "Direct Factory": "TY10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 92
+  },
+  {
+    "id": "Thymosin Alpha-1|2mg",
+    "product": "Thymosin Alpha-1",
+    "strength": "2mg",
+    "spec": "2mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 118,
+      "Direct Factory": 88
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "TA2",
+      "Direct Factory": "TA2"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 88
+  },
+  {
+    "id": "Thymosin Alpha-1|5mg",
+    "product": "Thymosin Alpha-1",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 200,
+      "价格表": 185,
+      "Direct Factory": 126
+    },
+    "codes": {
+      "Viv": "TA5",
+      "价格表": "TA5",
+      "Direct Factory": "TA5"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 126
+  },
+  {
+    "id": "Thymosin Alpha-1|10mg",
+    "product": "Thymosin Alpha-1",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 350,
+      "价格表": 300,
+      "Direct Factory": 212
+    },
+    "codes": {
+      "Viv": "TA10",
+      "价格表": "TA10",
+      "Direct Factory": "TA10"
+    },
+    "best_source": "Direct Factory",
+    "best_price": 212
+  },
+  {
+    "id": "Tirzepatide|5mg",
+    "product": "Tirzepatide",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": 55,
+      "价格表": null,
+      "Direct Factory": 80
+    },
+    "codes": {
+      "Viv": "TR5",
+      "价格表": "",
+      "Direct Factory": "TR5"
+    },
+    "best_source": "Viv",
+    "best_price": 55
+  },
+  {
+    "id": "Tirzepatide|10mg",
+    "product": "Tirzepatide",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 110,
+      "价格表": 113,
+      "Direct Factory": 130
+    },
+    "codes": {
+      "Viv": "TR10",
+      "价格表": "TR10",
+      "Direct Factory": "TR10"
+    },
+    "best_source": "Viv",
+    "best_price": 110
+  },
+  {
+    "id": "Tirzepatide|15mg",
+    "product": "Tirzepatide",
+    "strength": "15mg",
+    "spec": "15mg*10vials",
+    "prices": {
+      "Viv": 155,
+      "价格表": 134,
+      "Direct Factory": 180
+    },
+    "codes": {
+      "Viv": "TR15",
+      "价格表": "TR15",
+      "Direct Factory": "TR15"
+    },
+    "best_source": "价格表",
+    "best_price": 134
+  },
+  {
+    "id": "Tirzepatide|20mg",
+    "product": "Tirzepatide",
+    "strength": "20mg",
+    "spec": "20mg*10vials",
+    "prices": {
+      "Viv": 220,
+      "价格表": 155,
+      "Direct Factory": 220
+    },
+    "codes": {
+      "Viv": "TR20",
+      "价格表": "TR20",
+      "Direct Factory": "TR20"
+    },
+    "best_source": "价格表",
+    "best_price": 155
+  },
+  {
+    "id": "Tirzepatide|30mg",
+    "product": "Tirzepatide",
+    "strength": "30mg",
+    "spec": "30mg *10vials",
+    "prices": {
+      "Viv": 320,
+      "价格表": 198,
+      "Direct Factory": 290
+    },
+    "codes": {
+      "Viv": "TR30",
+      "价格表": "TR30",
+      "Direct Factory": "TR30"
+    },
+    "best_source": "价格表",
+    "best_price": 198
+  },
+  {
+    "id": "Tirzepatide|40mg",
+    "product": "Tirzepatide",
+    "strength": "40mg",
+    "spec": "40mg *10vials",
+    "prices": {
+      "Viv": 420,
+      "价格表": 240,
+      "Direct Factory": 370
+    },
+    "codes": {
+      "Viv": "TR40",
+      "价格表": "TR40",
+      "Direct Factory": "TR40"
+    },
+    "best_source": "价格表",
+    "best_price": 240
+  },
+  {
+    "id": "Tirzepatide|50mg",
+    "product": "Tirzepatide",
+    "strength": "50mg",
+    "spec": "50mg *10vials",
+    "prices": {
+      "Viv": 500,
+      "价格表": 283,
+      "Direct Factory": 490
+    },
+    "codes": {
+      "Viv": "TR50",
+      "价格表": "TR50",
+      "Direct Factory": "TR50"
+    },
+    "best_source": "价格表",
+    "best_price": 283
+  },
+  {
+    "id": "Tirzepatide|60mg",
+    "product": "Tirzepatide",
+    "strength": "60mg",
+    "spec": "60mg *10vials",
+    "prices": {
+      "Viv": 570,
+      "价格表": 325,
+      "Direct Factory": 560
+    },
+    "codes": {
+      "Viv": "TR60",
+      "价格表": "TR60",
+      "Direct Factory": "TR60"
+    },
+    "best_source": "价格表",
+    "best_price": 325
+  },
+  {
+    "id": "Tirzepatide|80mg",
+    "product": "Tirzepatide",
+    "strength": "80mg",
+    "spec": "80mg *10vials",
+    "prices": {
+      "Viv": 720,
+      "价格表": 410,
+      "Direct Factory": 660
+    },
+    "codes": {
+      "Viv": "TR80",
+      "价格表": "TR80",
+      "Direct Factory": "TR80"
+    },
+    "best_source": "价格表",
+    "best_price": 410
+  },
+  {
+    "id": "Tirzepatide|100mg",
+    "product": "Tirzepatide",
+    "strength": "100mg",
+    "spec": "100mg *10vials",
+    "prices": {
+      "Viv": 800,
+      "价格表": 495,
+      "Direct Factory": 860
+    },
+    "codes": {
+      "Viv": "TR100",
+      "价格表": "TR100",
+      "Direct Factory": "TR100"
+    },
+    "best_source": "价格表",
+    "best_price": 495
+  },
+  {
+    "id": "Tirzepatide|120mg",
+    "product": "Tirzepatide",
+    "strength": "120mg",
+    "spec": "120mg*10vials",
+    "prices": {
+      "Viv": 960,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "TR120",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 960
+  },
+  {
+    "id": "Vesugen|10mg",
+    "product": "Vesugen",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 185,
+      "价格表": null,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "VS",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 185
+  },
+  {
+    "id": "VIP|5mg",
+    "product": "VIP",
+    "strength": "5mg",
+    "spec": "5mg*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 205,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "VIP5",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 205
+  },
+  {
+    "id": "VIP|10mg",
+    "product": "VIP",
+    "strength": "10mg",
+    "spec": "10mg*10vials",
+    "prices": {
+      "Viv": 300,
+      "价格表": 335,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "VP10",
+      "价格表": "VIP10",
+      "Direct Factory": ""
+    },
+    "best_source": "Viv",
+    "best_price": 300
+  }
+]

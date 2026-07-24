@@ -1,14 +1,81 @@
 import { useState, useRef } from "react";
-import { ShoppingCart, Truck, HelpCircle, UserPlus } from "lucide-react";
+import { ShoppingCart, Truck, HelpCircle, UserPlus, ClipboardList } from "lucide-react";
 import { ProductCatalog } from "./components/ProductCatalog";
 import { CartPanel } from "./components/CartPanel";
 import { HeroSection } from "./components/HeroSection";
 import { FaqPage } from "./components/FaqPage";
 import { MemberSignupForm } from "./components/MemberSignupForm";
+import { OrderOptimizer } from "./components/OrderOptimizer";
 import { AgeGate, useAgeVerified } from "./components/AgeGate";
 import { useCart } from "./lib/cart";
+import { useAuth } from "./lib/auth";
 
-type Page = "home" | "faq" | "signup";
+type Page = "home" | "faq" | "signup" | "optimizer";
+
+function OptimizerGate({ onBack }: { onBack: () => void }) {
+  const { session, signIn, ready } = useAuth();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const [loading, setLoading] = useState(false);
+
+  if (!ready) return <div className="min-h-screen flex items-center justify-center bg-slate-50"><span className="text-slate-400">Loading...</span></div>;
+
+  if (session) {
+    return <OrderOptimizer onBack={onBack} />;
+  }
+
+  const handleLogin = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    setLoading(true);
+    const result = await signIn(email, password);
+    setLoading(false);
+    if (!result.ok) setError(result.error);
+  };
+
+  return (
+    <div className="min-h-screen flex items-center justify-center bg-slate-50 px-4">
+      <div className="w-full max-w-sm bg-white rounded-2xl shadow-lg border border-slate-200 p-8">
+        <h2 className="text-xl font-bold text-slate-900 mb-1">Order Optimizer</h2>
+        <p className="text-sm text-slate-500 mb-6">Sign in to access the order builder.</p>
+        <form onSubmit={handleLogin} className="space-y-4">
+          <div>
+            <label className="block text-sm font-medium text-slate-700 mb-1">Email</label>
+            <input
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+              className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-slate-700 mb-1">Password</label>
+            <input
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+              className="w-full px-3 py-2 border border-slate-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+            />
+          </div>
+          {error && <p className="text-sm text-red-600">{error}</p>}
+          <button
+            type="submit"
+            disabled={loading}
+            className="w-full py-2.5 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 disabled:opacity-50 transition-colors"
+          >
+            {loading ? "Signing in..." : "Sign In"}
+          </button>
+        </form>
+        <button onClick={onBack} className="mt-4 text-sm text-slate-500 hover:text-slate-700 w-full text-center">
+          Back to store
+        </button>
+      </div>
+    </div>
+  );
+}
 
 function App() {
   const [cartOpen, setCartOpen] = useState(false);
@@ -54,6 +121,18 @@ function App() {
               <span className="inline-flex items-center gap-1">Flat $25 shipping | <img src="https://flagcdn.com/w20/us.png" alt="US" className="inline h-3 w-auto" /> Fulfillment</span>
             </div>
           </div>
+
+          <button
+            onClick={() => setPage("optimizer")}
+            className={`inline-flex items-center gap-1.5 px-3 py-2 text-sm font-medium rounded-xl transition-colors ${
+              page === "optimizer"
+                ? "text-purple-300 bg-purple-500/10"
+                : "text-slate-400 hover:text-slate-200 hover:bg-slate-800/60"
+            }`}
+          >
+            <ClipboardList className="w-4 h-4" />
+            <span className="hidden sm:inline">Optimizer</span>
+          </button>
 
           <button
             onClick={() => setPage("signup")}
@@ -107,6 +186,8 @@ function App() {
       {page === "faq" && <FaqPage />}
 
       {page === "signup" && <MemberSignupForm onBack={() => setPage("home")} />}
+
+      {page === "optimizer" && <OptimizerGate onBack={() => setPage("home")} />}
 
       {/* Floating cart button */}
       {cart.count > 0 && !cartOpen && (
