@@ -3744,26 +3744,26 @@
     "best_price": 580
   },
   {
-    "id": "TB-500|10mg",
-    "product": "TB-500",
+    "id": "TB-500 (Fragment)|10mg",
+    "product": "TB-500 (Fragment)",
     "strength": "10mg",
     "spec": "10mg*10vials",
     "prices": {
       "Viv": 350,
-      "价格表": null,
+      "价格表": 145,
       "Direct Factory": 128
     },
     "codes": {
       "Viv": "BT10",
-      "价格表": "",
+      "价格表": "TB10",
       "Direct Factory": "BB10"
     },
     "best_source": "Direct Factory",
     "best_price": 128
   },
   {
-    "id": "TB-500|2mg",
-    "product": "TB-500",
+    "id": "TB-500 (Fragment)|2mg",
+    "product": "TB-500 (Fragment)",
     "strength": "2mg",
     "spec": "2mg*10vials",
     "prices": {
@@ -3780,55 +3780,19 @@
     "best_price": 80
   },
   {
-    "id": "TB-500|5mg",
-    "product": "TB-500",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": 180,
-      "价格表": null,
-      "Direct Factory": 110
-    },
-    "codes": {
-      "Viv": "BT5",
-      "价格表": "",
-      "Direct Factory": "BT5"
-    },
-    "best_source": "Direct Factory",
-    "best_price": 110
-  },
-  {
-    "id": "TB-500 (Fragment)|10mg",
-    "product": "TB-500 (Fragment)",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 145,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "TB10",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 145
-  },
-  {
     "id": "TB-500 (Fragment)|5mg",
     "product": "TB-500 (Fragment)",
     "strength": "5mg",
     "spec": "5mg*10vials",
     "prices": {
-      "Viv": null,
+      "Viv": 180,
       "价格表": 108,
-      "Direct Factory": null
+      "Direct Factory": 110
     },
     "codes": {
-      "Viv": "",
+      "Viv": "BT5",
       "价格表": "TB5",
-      "Direct Factory": ""
+      "Direct Factory": "BT5"
     },
     "best_source": "价格表",
     "best_price": 108
