@@ -991,42 +991,7 @@
     "best_source": "Direct Factory",
     "best_price": 69
   },
-  {
-    "id": "DUL10|10mg",
-    "product": "DUL10",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 620,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 620
-  },
-  {
-    "id": "DUL5|5mg",
-    "product": "DUL5",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 380,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "DULAGLUTIDE",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 380
-  },
+
   {
     "id": "Dulaglutide|10mg",
     "product": "Dulaglutide",
@@ -1034,15 +999,15 @@
     "spec": "10mg*10vials",
     "prices": {
       "Viv": 880,
-      "价格表": null,
+      "价格表": 620,
       "Direct Factory": 620
     },
     "codes": {
       "Viv": "DULAGLUTIDE10",
-      "价格表": "",
+      "价格表": "DULAGLUTIDE",
       "Direct Factory": "DUL10"
     },
-    "best_source": "Direct Factory",
+    "best_source": "价格表",
     "best_price": 620
   },
   {
@@ -1052,12 +1017,12 @@
     "spec": "5mg*10vials",
     "prices": {
       "Viv": 450,
-      "价格表": null,
+      "价格表": 380,
       "Direct Factory": 380
     },
     "codes": {
       "Viv": "DULAGLUTIDE5",
-      "价格表": "",
+      "价格表": "DULAGLUTIDE",
       "Direct Factory": "DUL5"
     },
     "best_source": "Direct Factory",
