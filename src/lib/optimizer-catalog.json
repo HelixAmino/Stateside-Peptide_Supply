@@ -2052,60 +2052,6 @@
     "best_price": 92
   },
   {
-    "id": "IP10|10mg",
-    "product": "IP10",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 130,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 130
-  },
-  {
-    "id": "IP2|2mg",
-    "product": "IP2",
-    "strength": "2mg",
-    "spec": "2mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 56,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "IPAMORELIN",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 56
-  },
-  {
-    "id": "IP5|5mg",
-    "product": "IP5",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 70,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 70
-  },
-  {
     "id": "Ipamorelin|10mg",
     "product": "Ipamorelin",
     "strength": "10mg",
@@ -2130,12 +2076,12 @@
     "spec": "2mg*10vials",
     "prices": {
       "Viv": 40,
-      "价格表": null,
+      "价格表": 56,
       "Direct Factory": 56
     },
     "codes": {
       "Viv": "IP2",
-      "价格表": "",
+      "价格表": "IPAMORELIN",
       "Direct Factory": "IP2"
     },
     "best_source": "Viv",
