@@ -707,12 +707,12 @@
     "strength": "10mg",
     "spec": "10mg*10vials",
     "prices": {
-      "Viv": null,
+      "Viv": 210,
       "价格表": 360,
       "Direct Factory": 137
     },
     "codes": {
-      "Viv": "",
+      "Viv": "CP10",
       "价格表": "CP10",
       "Direct Factory": "CP10"
     },
@@ -826,24 +826,6 @@
     },
     "best_source": "Direct Factory",
     "best_price": 182
-  },
-  {
-    "id": "CJC1295(without DAC)5mg+IPA5mg|10mg",
-    "product": "CJC1295(without DAC)5mg+IPA5mg",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": 210,
-      "价格表": null,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "CP10",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "Viv",
-    "best_price": 210
   },
   {
     "id": "Cortagen|20mg",
