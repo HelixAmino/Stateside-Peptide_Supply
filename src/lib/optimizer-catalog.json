@@ -1620,58 +1620,22 @@
     "best_price": 45
   },
   {
-    "id": "Glow (BPC+TB+GHK)|70mg",
-    "product": "Glow (BPC+TB+GHK)",
+    "id": "GLOW (BPC+TB+GHK)|70mg",
+    "product": "GLOW (BPC+TB+GHK)",
     "strength": "70mg",
     "spec": "70mg*10vials",
     "prices": {
-      "Viv": null,
+      "Viv": 460,
       "价格表": 320,
       "Direct Factory": 185
     },
     "codes": {
-      "Viv": "",
+      "Viv": "BBG70",
       "价格表": "GLOW70",
       "Direct Factory": "GLOW70"
     },
     "best_source": "Direct Factory",
     "best_price": 185
-  },
-  {
-    "id": "Glow(TB10mg+BPC-15710mg+GHK50mg)|70mg",
-    "product": "Glow(TB10mg+BPC-15710mg+GHK50mg)",
-    "strength": "70mg",
-    "spec": "70mg*10vials",
-    "prices": {
-      "Viv": 500,
-      "价格表": null,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "BBG70",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "Viv",
-    "best_price": 500
-  },
-  {
-    "id": "Glow70(BPC157 10mg+GHK-CU50mg+TB500 10mg)|70mg",
-    "product": "Glow70(BPC157 10mg+GHK-CU50mg+TB500 10mg)",
-    "strength": "70mg",
-    "spec": "70mg*10vials",
-    "prices": {
-      "Viv": 460,
-      "价格表": null,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "GLOW70",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "Viv",
-    "best_price": 460
   },
   {
     "id": "Glutathione|1000mg",
