@@ -15,4 +15,17 @@ export type CatalogItem = {
 
 export const SUPPLIER_NAMES: SupplierName[] = ["Viv", "价格表", "Direct Factory"];
 
-export const CATALOG: CatalogItem[] = catalogData as CatalogItem[];
+const TIE_PRIORITY: SupplierName[] = ["价格表", "Viv", "Direct Factory"];
+
+export const CATALOG: CatalogItem[] = (catalogData as CatalogItem[]).map((item) => {
+  let bestPrice = Infinity;
+  let bestSource: SupplierName = item.best_source;
+  for (const s of TIE_PRIORITY) {
+    const p = item.prices[s];
+    if (p != null && p < bestPrice) {
+      bestPrice = p;
+      bestSource = s;
+    }
+  }
+  return { ...item, best_source: bestSource, best_price: bestPrice === Infinity ? item.best_price : bestPrice };
+});
