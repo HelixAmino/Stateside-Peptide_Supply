@@ -3564,42 +3564,6 @@
     "best_price": 75
   },
   {
-    "id": "SMO10|10mg",
-    "product": "SMO10",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 143,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 143
-  },
-  {
-    "id": "SMO5|5mg",
-    "product": "SMO5",
-    "strength": "5mg",
-    "spec": "5mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 108,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "SERMORELIN",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 108
-  },
-  {
     "id": "Snap-8|100mg",
     "product": "Snap-8",
     "strength": "100mg",
