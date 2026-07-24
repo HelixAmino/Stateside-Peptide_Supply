@@ -428,7 +428,7 @@ function CatalogRow({
 
       {/* Best source badge */}
       <span className={`hidden lg:inline-block text-[10px] px-1.5 py-0.5 rounded-full whitespace-nowrap ${SUPPLIER_BADGE[item.best_source]}`}>
-        {item.best_source}
+        {item.best_source === "Direct Factory" ? "DF" : item.best_source}
       </span>
     </div>
   );
