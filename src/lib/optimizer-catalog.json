@@ -1620,96 +1620,6 @@
     "best_price": 35
   },
   {
-    "id": "H10|10iu",
-    "product": "H10",
-    "strength": "10iu",
-    "spec": "10iu*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 96,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 96
-  },
-  {
-    "id": "H15|15iu",
-    "product": "H15",
-    "strength": "15iu",
-    "spec": "15iu* 10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 127,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 127
-  },
-  {
-    "id": "H36|36iu",
-    "product": "H36",
-    "strength": "36iu",
-    "spec": "36iu* 10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 280,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 280
-  },
-  {
-    "id": "H40|40iu",
-    "product": "H40",
-    "strength": "40iu",
-    "spec": "40iu* 10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 350,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 350
-  },
-  {
-    "id": "H8|8iu",
-    "product": "H8",
-    "strength": "8iu",
-    "spec": "8iu*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 78,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "HGH 191AA (SOMATROPIN)",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 78
-  },
-  {
     "id": "HCG|10000iu",
     "product": "HCG",
     "strength": "10000iu",
@@ -1824,7 +1734,7 @@
     "spec": "10iu*10vials",
     "prices": {
       "Viv": 75,
-      "价格表": null,
+      "价格表": 96,
       "Direct Factory": 96
     },
     "codes": {
@@ -1857,10 +1767,10 @@
     "id": "HGH 191AA|15iu",
     "product": "HGH 191AA",
     "strength": "15iu",
-    "spec": "15iu* 10vials",
+    "spec": "15iu*10vials",
     "prices": {
       "Viv": 160,
-      "价格表": null,
+      "价格表": 127,
       "Direct Factory": 127
     },
     "codes": {
@@ -1868,7 +1778,7 @@
       "价格表": "",
       "Direct Factory": ""
     },
-    "best_source": "Direct Factory",
+    "best_source": "价格表",
     "best_price": 127
   },
   {
@@ -1896,7 +1806,7 @@
     "spec": "36iu*10vials",
     "prices": {
       "Viv": 320,
-      "价格表": null,
+      "价格表": 280,
       "Direct Factory": null
     },
     "codes": {
@@ -1904,8 +1814,26 @@
       "价格表": "",
       "Direct Factory": ""
     },
-    "best_source": "Viv",
-    "best_price": 320
+    "best_source": "价格表",
+    "best_price": 280
+  },
+  {
+    "id": "HGH 191AA|40iu",
+    "product": "HGH 191AA",
+    "strength": "40iu",
+    "spec": "40iu*10vials",
+    "prices": {
+      "Viv": null,
+      "价格表": 350,
+      "Direct Factory": null
+    },
+    "codes": {
+      "Viv": "",
+      "价格表": "",
+      "Direct Factory": ""
+    },
+    "best_source": "价格表",
+    "best_price": 350
   },
   {
     "id": "HGH 191AA|8iu",
@@ -1914,15 +1842,15 @@
     "spec": "8iu*10vials",
     "prices": {
       "Viv": null,
-      "价格表": null,
+      "价格表": 78,
       "Direct Factory": 78
     },
     "codes": {
       "Viv": "",
-      "价格表": "",
+      "价格表": "HGH 191AA (SOMATROPIN)",
       "Direct Factory": "HGH"
     },
-    "best_source": "Direct Factory",
+    "best_source": "价格表",
     "best_price": 78
   },
   {
@@ -2034,36 +1962,18 @@
     "best_price": 100
   },
   {
-    "id": "HUM10|10mg",
-    "product": "HUM10",
-    "strength": "10mg",
-    "spec": "10mg*10vials",
-    "prices": {
-      "Viv": null,
-      "价格表": 890,
-      "Direct Factory": null
-    },
-    "codes": {
-      "Viv": "",
-      "价格表": "HUMANIN",
-      "Direct Factory": ""
-    },
-    "best_source": "价格表",
-    "best_price": 890
-  },
-  {
     "id": "Humanin|10mg",
     "product": "Humanin",
     "strength": "10mg",
     "spec": "10mg*10vials",
     "prices": {
       "Viv": 480,
-      "价格表": null,
+      "价格表": 890,
       "Direct Factory": 890
     },
     "codes": {
       "Viv": "HU/HMN10",
-      "价格表": "",
+      "价格表": "HUMANIN",
       "Direct Factory": "HUM10"
     },
     "best_source": "Viv",
